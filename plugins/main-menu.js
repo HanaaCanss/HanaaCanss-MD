@@ -336,11 +336,11 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
                   "description": "Menampilkan Menu Sticker",
                   "rowId": `${_p}? sticker`
                 }, {
-                  "title": "║📺║DOWNLOADER - HANACANS",
+                  "title": "║📺║DOWNLOADER",
                   "description": "Menampilkan Menu Downloader",
                   "rowId": `${_p}? downloader`
                 }, {
-                  "title": "║📈║EXP & LIMIT ╠©HANA CANS",
+                  "title": "║📈║EXP & LIMIT",
                   "description": "Menampilkan Menu Exp",
                   "rowId": `${_p}? xp`
                 }, {
