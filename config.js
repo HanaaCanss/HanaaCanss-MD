@@ -19,9 +19,9 @@ global.price1 = '1 bulan = 10.000\n2 Minggu 7.000\n1 Minggu 5.000'
 
 //=======『 Tampilan Dan Lainnya 』============//
 global.fotonya1 = 'https://telegra.ph/file/afac20a5eab8240413471.png' //ganti jadi foto bot mu
-global.fotonya2 = 'https://telegra.ph/file/6104fcb3fe2c69ae98cfd.jpg' //ini juga ganti 
+global.fotonya2 = 'https://telegra.ph/file/951752b235e226cf94939.png' //ini juga ganti 
 global.lolkey = 'Papah-Chan' //biar mudah ngegantinya semisal apikeynya expired:v
-global.zenzkey = 'BagasPrdn' //ganti jadi apikey lu kalau expired
+global.hanaakey = 'HanaaBotz' //ganti jadi apikey lu kalau expired
 global.wm = ''
 global.watermark = wm
 global.wm2 = '                     「 𝙷𝚊𝚗𝚊𝚊𝙲𝚊𝚗𝚜𝚜できる 」'
