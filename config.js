@@ -21,7 +21,7 @@ global.price1 = '1 bulan = 10.000\n2 Minggu 7.000\n1 Minggu 5.000'
 global.fotonya1 = 'https://telegra.ph/file/afac20a5eab8240413471.png' //ganti jadi foto bot mu
 global.fotonya2 = 'https://telegra.ph/file/951752b235e226cf94939.png' //ini juga ganti 
 global.lolkey = 'Papah-Chan' //biar mudah ngegantinya semisal apikeynya expired:v
-global.zenzkey = 'HanaaBotz' //ganti jadi apikey lu kalau expired
+global.zenzkey = '046ac30e04e4' //ganti jadi apikey lu kalau expired
 global.wm = ''
 global.watermark = wm
 global.wm2 = '                     「 𝙷𝚊𝚗𝚊𝚊𝙲𝚊𝚗𝚜𝚜できる 」'
@@ -55,7 +55,7 @@ global.APIs = { // API Prefix
   dzx: 'https://api.dhamzxploit.my.id',
   bsbt: 'https://bsbt-api-rest.herokuapp.com',
   zahir: 'https://zahirr-web.herokuapp.com',
-  zeks: 'https://apikeyhanaa.herokuapp.comz',
+  zeks: 'https://api.zeks.xyz',
   zekais: 'http://zekais-api.herokuapp.com',
   hardianto: 'https://hardianto-chan.herokuapp.com',
   pencarikode: 'https://pencarikode.xyz', 
@@ -71,7 +71,7 @@ global.APIKeys = { // APIKey Here
   'https://api.xteam.xyz': 'd37372311698ed1d',
   'https://zahirr-web.herokuapp.com': 'zahirgans',
   'https://bsbt-api-rest.herokuapp.com': 'benniismael',
-  'https://apikeyhanaa.herokuapp.com': 'HanaaBotz',
+  'https://api.zeks.xyz': '046ac30e04e4',
   'https://hardianto-chan.herokuapp.com': 'hardianto',
   'https://pencarikode.xyz': 'pais', 
   'https://leyscoders-api.herokuapp.com': 'dappakntlll',
