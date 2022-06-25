@@ -22,25 +22,27 @@ let moment = require('moment-timezone')
 //━━━━━━━━[ DEFAULT MENU ]━━━━━━━━//
 const defaultMenu = {
   before:`
-╔═「 *${global.namebot}* 」
-╠💻╠➥ Hai, %name!
-╠💻╠➥ Tersisa *%limit Limit*
-╠💻╠➥ Role *%role*
-╠💻╠➥ Level *%level (%exp / %maxexp)*
-╠💻╠➥ [%xp4levelup]
-╠💻╠➥ %totalexp XP secara Total
+╔══【 *INFO USER* 】═⬣
+╠➵͜͡⫹⫺➥ USER : *%name*
+╠➵͜͡⫹⫺➥ REMAINING LIMIT *%limit LIMIT
+╠➵͜͡⫹⫺➥ ROLE *%role*
+╠➵͜͡⫹⫺➥ LEVEL*%level (%exp / %maxexp)*
+╠➵͜͡⫹⫺➥ TOTAL XP : *%totalexp* 𝚇𝙿
 ║ 
-╠💻╠➥ Tanggal: *%week %weton, %date*
-╠💻╠➥ Tanggal Islam: *%dateIslamic*
-╠💻╠➥ Waktu: *%time*
+╠══【 *T O D A Y* 】═⬣
+╠➵͜͡⫹⫺➥ TODAY : *%week %weton*
+╠➵͜͡⫹⫺➥ DATE : *%date*
+╠➵͜͡⫹⫺➥ DATE ISLAMIC : *%dateIslamic*
+╠➵͜͡⫹⫺➥ TIME : *%time*
 ║
-╠💻╠➥ Uptime: *%uptime (%muptime)*
-╠💻╠➥ Database: %rtotalreg dari %totalreg
-╠💻╠➥ Memory Used : *${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB*
-╚═════════════➣
+╠══【 *DATABASE* 】═⬣
+╠➵͜͡⫹⫺➥ UPTIME : *%uptime (%muptime)*
+╠➵͜͡⫹⫺➥ DATABASE : %rtotalreg dari %totalreg
+╠➵͜͡⫹⫺➥ MEMORY USED : *${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB*
+╚══════════════════⬣
 %readmore`.trimStart(), 
-  header: '╔═ %category ',
-  body: '╠🍭╠➥ %cmd %islimit %isPremium',
+  header: '╔═ 【  %category  】 ',
+  body: '╠☰➵͜͡✏ %cmd %islimit %isPremium',
   footer: '╚════\n', 
   after: ``,
 }
@@ -52,37 +54,37 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
   let arrayMenu = ['all', 'absen', 'rpg', 'anime', 'downloader', 'game', 'fun', 'xp', 'github', 'group', 'image', 'quotes', 'admin', 'info', 'internet', 'islam', 'kerang', 'maker', 'owner', 'suara', 'premium', 'quotes', 'info', 'stalk', 'shortlink', 'sticker', 'tools', 'text', 'nsfw', 'asupan', 'random', 'textpro', 'photooxy']
   if (!arrayMenu.includes(teks)) teks = '404'
   if (teks == 'all') tags = {
-  'main': 'MENU UTAMA',
-  'advanced': 'ADVANCED',
-  'absen': 'MENU ABSEN',
-  'anime': 'MENU ANIME',
-  'sticker': 'MENU CONVERT',
-  'downloader': 'MENU DOWNLOADER',
-  'xp': 'MENU EXP',
-  'fun': 'MENU FUN',
-  'game': 'MENU GAME',
-  'github': 'MENU GITHUB',
-  'group': 'MENU GROUP',
-  'image': 'MENU IMAGE',
-  'info': 'MENU INFO',
-  'internet': 'INTERNET',
-  'islam' : 'MENU ISLAMI',
-  'kerang': 'MENU KERANG',
-  'maker': 'MENU MAKER',
-  'owner': 'MENU OWNER',
-  'Pengubah Suara': 'PENGUBAH SUARA',
-  'premium': 'PREMIUM MENU',
-  'quotes' : 'MENU QUOTES',
-  'rpg': 'MENU RPG',
-  'stalk': 'MENU STALK',
-  'shortlink': 'SHORT LINK',
-  'tools': 'MENU TOOLS',
-  'vote': 'MENU VOTING',
-  'nsfw': 'NSFW MENU', 
-  'asupan': 'ASUPAN MENU', 
-  'random': 'RANDOM MENU', 
-  'textpro': 'TEXT PRO MENU', 
-  'photooxy': 'PHOTO OXY MENU', 
+  'main': '☰ MENU UTAMA ☰',
+  'advanced': '⫹⫺ ADVANCED⋮☰',
+  'absen': '📝 MENU ABSEN 📝',
+  'anime': '🍭 MENU ANIME 🍭',
+  'sticker': '🖨️ MENU CONVERT 🖨️',
+  'downloader': '📁 MENU DOWNLOADER 📁',
+  'xp': '🎀 MENU EXP 🎀',
+  'fun': '😁 MENU FUN 😁',
+  'game': '🎱 MENU GAME 🎱',
+  'github': '🛸 MENU GITHUB 🛸',
+  'group': '💬 MENU GROUP 💬',
+  'image': '🖼️ MENU IMAGE 🖼️',
+  'info': 'ℹ️ MENU INFO ℹ️',
+  'internet': '🌐 INTERNET 🌐',
+  'islam' : '🕋 MENU ISLAMI 🕋',
+  'kerang': '🐚 MENU KERANG 🐚',
+  'maker': '🎞️ MENU MAKER 🎞️',
+  'owner': '🤖 MENU OWNER 🤖',
+  'Pengubah Suara': '🎙️ PENGUBAH SUARA 🎙️',
+  'premium': '👑 PREMIUM MENU 👑',
+  'quotes' : '📑 MENU QUOTES 📑',
+  'rpg': '💣 MENU RPG 💣', 
+  'stalk': '👦 MENU STALK 👦',
+  'shortlink': '🔗 SHORT LINK 🔗',
+  'tools': '⚒️ MENU TOOLS ⚒️',
+  'vote': '📣 MENU VOTING 📣',
+  'nsfw': '🧼 NSFW MENU 🧼', 
+  'asupan': '🍙 ASUPAN MENU 🍙', 
+  'random': '🎲 RANDOM MENU 🎲', 
+  'textpro': '✍️ TEXT PRO MENU ✍️', 
+  'photooxy': '💭 PHOTO OXY MENU 💭', 
   }
   if (teks == 'absen') tags = {
     'absen': 'MENU ABSEN',
@@ -283,152 +285,157 @@ const fdoc = {
 
 //━━━━━━━━[ BAGIAN MENU ]━━━━━━━━//
 if (teks == '404') {
-let menuu = `╔════「 *${namebot}* 」═══⬣
-╠🍭╠➥ Aktif selama ${uptime}
-╠🍭╠➥ ${Object.keys(global.db.data.users).length} Pengguna
-╠🍭╠➥ Mode : ${global.opts['self'] ? 'Self' : 'publik'}
-╠🍭╠➥ ${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length} Chat Terbanned
-╠🍭╠➥ ${Object.entries(global.db.data.users).filter(user => user[1].banned).length} Pengguna Terbanned
+let menuu = `╔════【 *${namebot}* 】═══⬣
+╠➵͜͡⫹⫺➥ Aktif selama ${uptime}
+╠➵͜͡⫹⫺➥ ${Object.keys(global.db.data.users).length} Pengguna
+╠➵͜͡⫹⫺➥ Mode : ${global.opts['self'] ? 'Self' : 'publik'}
+╠➵͜͡⫹⫺➥ ${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length} Chat Terbanned
+╠➵͜͡⫹⫺➥ ${Object.entries(global.db.data.users).filter(user => user[1].banned).length} Pengguna Terbanned
 ╚══════⬣
-╔════「 *${name}* 」═══⬣
-╠🍭╠➥ Api : ${tag}
-╠🍭╠➥ Limit : ${limit}
-╠🍭╠➥ Role : ${role}
-╠🍭╠➥ Premium : ${global.prem ? 'Yes' : 'No'}
-╠🍭╠➥ Date : ${week} ${date}
-╠🍭╠➥ Time : ${wib}
+╔════【 *${name}* 】═══⬣
+╠➵͜͡⫹⫺➥ Api : ${tag}
+╠➵͜͡⫹⫺➥ Limit : ${limit}
+╠➵͜͡⫹⫺➥ Role : ${role}
+╠➵͜͡⫹⫺➥ Premium : ${global.prem ? 'Yes' : 'No'}
+╠➵͜͡⫹⫺➥ Date : ${week} ${date}
+╠➵͜͡⫹⫺➥ Time : ${wib}
+╚══════⬣
+╔════【 *INFORMASI* 】═══⬣
+╠⫹⫺ Hanaa bot masih dalam perkembangan
+╠⫹⫺ Kalau menemukan bug / eror harap
+╠⫹⫺ Lapor Ke Owner
 ╚══════════════⬣`
 const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fromObject({
         listMessage: {
             title: `${ucapan()} ${name}`,
             description: menuu,
-            buttonText: 'LIST MENU',
+            buttonText: 'SEMUA MENU',
             listType: 1,
-            footerText: "𝚂𝙸𝙻𝙰𝙷𝙺𝙰𝙽 𝙿𝙸𝙻𝙸𝙷 𝙼𝙴𝙽𝚄 𝙳𝙸 𝙱𝙰𝚆𝙰𝙷",
+            footerText: "⫹⫺ 𝚂𝙸𝙻𝙰𝙷𝙺𝙰𝙽 𝙿𝙸𝙻𝙸𝙷 𝙼𝙴𝙽𝚄 𝙳𝙸 𝙱𝙰𝚆𝙰𝙷",
             mtype: 'listMessage',
             sections: [
               {
                 "rows": [{
-                  "title": ` 👨 OWNER BOT`,
+                  "title": `⋮☰【👨】OWNER BOT`,
                   "description": "Nomor Pemilik Bot Chat P/Meminta Save Tidak Akan Di Respon",
                   "rowId": `.owner`
                 },{
-                  "title": "❗ INFO BOT",
+                  "title": "⋮☰【❗】INFO BOT",
                   "description": "Menampilkan Menu Info",
                   "rowId": `${_p}? info`
                 }],
                 "title": "INFORMASI BOT"
               }, {
                 "rows": [{
-                  "title": `║🧾║ SEMUA PERINTAH`,
+                  "title": `⋮☰【🧾】SEMUA PERINTAH`,
                   "description": "Menampilkan Menu All",
                   "rowId": '.? all'
                   }, {
-                  "title": "║ 📝║ ABSEN & VOTING",
+                  "title": "⋮☰【📝】ABSEN & VOTING",
                   "description": "Menampilkan Menu Absen",
                   "rowId": `${_p}? absen`
                 }, {
-                  "title": "║⛩️║ANIME",
+                  "title": "⋮☰【⛩️】ANIME",
                   "description": "Menampilkan Menu Anime",
                   "rowId": `${_p}? anime`
                 }, {
-                  "title": "║🎇║STICKER & CONVERTER",
+                  "title": "⋮☰【🎇】STICKER & CONVERTER",
                   "description": "Menampilkan Menu Sticker",
                   "rowId": `${_p}? sticker`
                 }, {
-                  "title": "║📺║DOWNLOADER",
+                  "title": "⋮☰【📺】DOWNLOADER",
                   "description": "Menampilkan Menu Downloader",
                   "rowId": `${_p}? downloader`
                 }, {
-                  "title": "║📈║EXP & LIMIT",
+                  "title": "⋮☰【📈】EXP & LIMIT",
                   "description": "Menampilkan Menu Exp",
                   "rowId": `${_p}? xp`
                 }, {
-                  "title": "║🐣║FUN  ",
+                  "title": "⋮☰【🐣】FUN  ",
                   "description": "Menampilkan Menu Fun",
                   "rowId": `${_p}? fun`
                 }, {
-                  "title": "║🎮║GAME ",
+                  "title": "⋮☰【🎮】GAME ",
                   "description": "Menampilkan Menu Game",
                   "rowId": `${_p}? game`
                 }, {
-                  "title": "║🧰║GITHUB ",
+                  "title": "⋮☰【🧰】GITHUB ",
                   "description": "Menampilkan Menu Github",
                   "rowId": `${_p}? github`
                 }, {
-                  "title": "║🏢║GROUP ",
+                  "title": "⋮☰【🏢】GROUP ",
                   "description": "Menampilkan Menu Group",
                   "rowId": `${_p}? group`
                 }, {
-                  "title": "║🖼║IMAGE ",
+                  "title": "⋮☰【🖼】IMAGE ",
                   "description": "Menampilkan Menu Image",
                   "rowId": `${_p}? image`
                 }, {
-                  "title": "║📡║INTERNET ",
+                  "title": "⋮☰【📡 】INTERNET ",
                   "description": "Menampilkan Menu Internet",
                   "rowId": `${_p}? internet`
                 }, {
-                  "title": "║🕋║ISLAMIC ",
+                  "title": "⋮☰【🕋】ISLAMIC ",
                   "description": "Menampilkan Menu Islam",
                   "rowId": `${_p}? islam`
                 }, {
-                  "title": "║🐚║KERANG ",
+                  "title": "⋮☰【🐚】KERANG ",
                   "description": "Menampilkan Menu Kerang",
                   "rowId": `${_p}? kerang`
                 }, {
-                  "title": "║✒️║MAKER ",
+                  "title": "⋮☰【✒️】MAKER ",
                   "description": "Menampilkan Menu Maker",
                   "rowId": `${_p}? maker`
                 }, {
-                  "title": "║👨‍💻║OWNER ",
+                  "title": "⋮☰【👨】OWNER ",
                   "description": "Menampilkan Menu Owner",
                   "rowId": `${_p}? owner`
                 }, {
-                  "title": "║🎙️║PENGUBAH SUARA ",
+                  "title": "⋮☰【🎙️】PENGUBAH SUARA ",
                   "description": "Menampilkan Menu Voice Changer",
                   "rowId": `${_p}? suara`
                 }, {
-                  "title": "║👑║PREMIUM ",
+                  "title": "⋮☰【👑】PREMIUM ",
                   "description": "Menampilkan Menu Premium",
                   "rowId": `${_p}? premium`
                 }, {
-                  "title": "║📑║QUOTES ",
+                  "title": "⋮☰【📑】QUOTES ",
                   "description": "Menampilkan Menu Quotes",
                   "rowId": `${_p}? quotes`
                 }, {
-                  "title": "║🗡️║RPG ",
+                  "title": "⋮☰【🗡️ 】RPG ",
                   "description": "Menampilkan Menu Rpg",
                   "rowId": `${_p}? rpg`
                 }, {
-                  "title": "║🐾║STALKER ",
+                  "title": "⋮☰【🐾】STALKER ",
                   "description": "Menampilkan Menu Stalker",
                   "rowId": `${_p}? stalk`
                 }, {
-                  "title": "║🔗║SHORT LINK ",
+                  "title": "⋮☰【🔗】SHORT LINK ",
                   "description": "Menampilkan Menu Short Link",
                   "rowId": `${_p}? shortlink`
                 }, {
-                  "title": "║🛠║TOOLS MENU ",
+                  "title": "⋮☰【🛠】TOOLS MENU ",
                   "description": "Menampilkan Menu Tools",
                   "rowId": `${_p}? tools`
                 }, {
-                  "title": "║📖║TEXT MAKER ",
+                  "title": "⋮☰【📖】TEXT MAKER ",
                   "description": "Menampilkan Maker Text",
                   "rowId": `${_p}? text`
                 }, {
-                  "title": "║🧼║HENTAI",
+                  "title": "⋮☰【🧼】HENTAI",
                   "description": "Menampilkan Menu Hentai",
                   "rowId": `${_p}? nsfw`
                 }, {
-                  "title": "║🎲║RANDOM",
+                  "title": "⋮☰【🎲】RANDOM",
                   "description": "Menampilkan Menu Random/Gabut",
                   "rowId": `${_p}? random`
                 }, {
-                  "title": "║📚║TEXT PRO ",
+                  "title": "⋮☰【📚】TEXT PRO ",
                   "description": "Menampilkan Text Pro Menu",
                   "rowId": `${_p}? textpro`
                 }, {
-                  "title": "║💭║PHOTO OXY ",
+                  "title": "⋮☰【💭】PHOTO OXY ",
                   "description": "Menampilkan Photo Oxy Menu",
                   "rowId": `${_p}? textpro`
                 }
@@ -586,18 +593,18 @@ function clockString(ms) {
 }
 function ucapan() {
   const time = moment.tz('Asia/Jakarta').format('HH')
-  res = "Selamat DiniHari"
+  res = "Selamat DiniHari 🏙️"
   if (time >= 4) {
-    res = "Selamat Pagi"
+    res = "Selamat Pagi 🌄"
   }
   if (time > 10) {
-    res = "Selamat Siang"
+    res = "Selamat Siang 🏜️"
   }
   if (time >= 15) {
-    res = "Selamat Sore"
+    res = "Selamat Sore 🌇"
   }
   if (time >= 18) {
-    res = "Selamat Malam"
+    res = "Selamat Malam 🌃"
   }
   return res
 }
