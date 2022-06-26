@@ -15,7 +15,7 @@ global.pulsa = '083187631714'
 global.namebot = 'HanaaaBotzz'
 global.gc = 'https://chat.whatsapp.com/Jzd9DEVB5nODtNBk1VCNrV'
 global.web = 'universeworld.ml' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
-global.price1 = '╔══【 ıll *LIST* llı 】═֍\n\nPERMANET Rp5000 PER AKUN\n\n╔══【 ıll *VIA* llı 】═֍\nDana : 083187631714\nPulsa : 083187631714''
+global.price1 = 'LIST ITEM & HARGA\n\nPERMANENT 5K PER AKUN \n\nHubungi Owner Jika Ingin Membeli'
 //=======『 Tampilan Dan Lainnya 』============//
 global.fotonya1 = 'https://telegra.ph/file/869c320fa92ee73e8e422.png' //ganti jadi foto bot mu
 global.fotonya2 = 'https://telegra.ph/file/951752b235e226cf94939.png' //ini juga ganti 
