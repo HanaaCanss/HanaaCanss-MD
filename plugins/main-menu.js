@@ -295,15 +295,15 @@ let menuu = `╔════【 ıll *${namebot}* llı 】═══֍
 ╠➵͜͡⫹⫺➥ Api : ${tag}
 ╠➵͜͡⫹⫺➥ Limit : ${limit}
 ╠➵͜͡⫹⫺➥ Role : ${role}
+╠➵͜͡⫹⫺➥ Date : ${week} ${date}
+╠➵͜͡⫹⫺➥ Time : ${wib} 
 ╠➵͜͡⫹⫺➥ Premium : ${global.prem ? 'Yes' : 'No'}
 ╚══════֍
 ╔════【 ıll *INFORMASI* llı 】═══֍
 ╠⫹⫺ Hanaa bot masih dalam perkembangan
 ╠⫹⫺ Kalau menemukan bug / eror harap
 ╠⫹⫺ Lapor Ke Owner
-╚══════════════֍
- Date : ${week} ${date}
- Time : ${wib}`
+╚══════════════֍`
 const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fromObject({
         listMessage: {
             title: `${ucapan()} ${name}`,
