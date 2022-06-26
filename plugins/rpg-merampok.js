@@ -7,18 +7,16 @@ let dapat = (Math.floor(Math.random() * 10000000000000000))
   else who = m.chat
   if (!who) throw 'Tag salah satu lah'
   let __timers = (new Date - global.db.data.users[m.sender].lastrob)
-  let _timers = (3600000 - __timers) 
+  let _timers = (604800000 - __timers) 
   let timers = clockString(_timers)
   let users = global.db.data.users
-  if (new Date - global.db.data.users[m.sender].lastrob > 3600000){
-  if (10000 > users[who].money) throw 'Target Gaada Uang bodoh, Kismin dia'
-  users[who].money -= 0 // dapat * 1
-  users[m.sender].money -=10000000  // dapat * 1
+  if (new Date - global.db.data.users[m.sender].lastrob > 604800000){
+  users[m.sender].money += 80128896815 // dapat * 1
   global.db.data.users[m.sender].lastrob = new Date * 1
-  m.reply(`Lu ditangkep polisi bego dah tau maling haram masih juga, lu didenda ${dapat}`)
-}else conn.reply(m.chat, `Lu Dipenjara bodo , Jangan Maleng su lu bisa command ni ${timer} Lagi`, m)
+  m.reply(`Berhasil Merampok Money Target Sebesar ${dapat}`)
+}else conn.reply(m.chat, `Anda Sudah merampok dan berhasil sembunyi , tunggu ${timers} untuk merampok lagi`, m)
 }
-handler.help = ['merampok *@tag*']
+handler.help = ['merampok']
 handler.tags = ['rpg']
 handler.command = /^merampok$/
 handler.limit = true

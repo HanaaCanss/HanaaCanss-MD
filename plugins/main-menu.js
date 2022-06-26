@@ -22,24 +22,23 @@ let moment = require('moment-timezone')
 //━━━━━━━━[ DEFAULT MENU ]━━━━━━━━//
 const defaultMenu = {
   before:`
-╔══【 ıll *INFO USER* llı 】═⬣
+╔══【 ıll *INFO USER* llı 】═֍
 ╠➵͜͡⫹⫺➥ USER : *%name*
-╠➵͜͡⫹⫺➥ REMAINING LIMIT *%limit LIMIT
+╠➵͜͡⫹⫺➥ SISA LIMIT *%limit LIMIT
 ╠➵͜͡⫹⫺➥ ROLE *%role*
 ╠➵͜͡⫹⫺➥ LEVEL*%level (%exp / %maxexp)*
 ╠➵͜͡⫹⫺➥ TOTAL XP : *%totalexp* 𝚇𝙿
 ║ 
-╠══【 ıll *T O D A Y* llı 】═⬣
+╠══【 ıll *T O D A Y* llı 】═֍
 ╠➵͜͡⫹⫺➥ TODAY : *%week %weton*
 ╠➵͜͡⫹⫺➥ DATE : *%date*
-╠➵͜͡⫹⫺➥ DATE ISLAMIC : *%dateIslamic*
 ╠➵͜͡⫹⫺➥ TIME : *%time*
 ║
-╠══【 ıll *DATABASE* llı】═⬣
-╠➵͜͡⫹⫺➥ UPTIME : *%uptime (%muptime)*
+╠══【 ıll *DATABASE* llı】═֍
+╠➵͜͡⫹⫺➥ UPTIME : *%uptime
 ╠➵͜͡⫹⫺➥ DATABASE : %rtotalreg dari %totalreg
 ╠➵͜͡⫹⫺➥ MEMORY USED : *${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB*
-╚══════════════════⬣
+╚══════════════════֍
 %readmore`.trimStart(), 
   header: '╔═ 【  %category  】 ',
   body: '╠☰➵͜͡❁ %cmd %islimit %isPremium',
@@ -87,94 +86,94 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
   'photooxy': '💭 PHOTO OXY MENU 💭', 
   }
   if (teks == 'absen') tags = {
-    'absen': 'MENU ABSEN',
-    'vote': 'MENU VOTING',
+    'absen': '📝 MENU ABSEN 📝',
+    'vote': '📣 MENU VOTING 📣',
   }
   if (teks == 'anime') tags = {
-  'anime': 'MENU ANIME',
+  'anime': '🍭 MENU ANIME 🍭',
   }
   if (teks == 'sticker') tags = {
-  'sticker': 'MENU CONVERT',
+  'sticker': '🖨️ MENU CONVERT 🖨️',
   }
   if (teks == 'downloader') tags = {
-  'downloader': 'MENU DOWNLOADER',
+  'downloader': '📁 MENU DOWNLOADER 📁'',
   }
   if (teks == 'xp') tags = {
-  'xp': 'MENU EXP',
+  'xp': '🎀 MENU EXP 🎀',
   }
   if (teks == 'fun') tags = {
-  'fun': 'MENU FUN',
+  'fun': '😁 MENU FUN 😁',
   }
   if (teks == 'game') tags = {
-  'game': 'MENU GAME',
+  'game': '🎱 MENU GAME 🎱',
   }
   if (teks == 'github') tags = {
-  'github': 'MENU GITHUB',
+  'github': '🛸 MENU GITHUB 🛸',
   }
   if (teks == 'group') tags = {
-  'group': 'MENU GROUP',
+  'group': '💬 MENU GROUP 💬',
   }
   if (teks == 'image') tags = {
-  'image': 'MENU IMAGE',
+  'image': '🖼️ MENU IMAGE 🖼️',
   }
   if (teks == 'info') tags = {
-  'info': 'MENU INFO',
+  'info': 'ℹ️ MENU INFO ℹ️',
   }
   if (teks == 'internet') tags = {
-  'internet': 'INTERNET',
+  'internet': '🌐 INTERNET 🌐',
   }
   if (teks == 'islam') tags = {
-  'islam' : 'MENU ISLAMI',
+  'islam' : '🕋 MENU ISLAMI 🕋',
   }
   if (teks == 'kerang') tags = {
-  'kerang': 'MENU KERANG',
+  'kerang': '🐚 MENU KERANG 🐚',
   }
   if (teks == 'maker') tags = {
-  'maker': 'MENU MAKER',
+  'maker': '🎞️ MENU MAKER 🎞️',
   }
   if (teks == 'owner') tags = {
     'owner': 'Owner',
     'host': 'Host',
-    'advanced': 'Advanced'
+    'advanced': '🤖 MENU OWNER 🤖'
   }
   if (teks == 'suara') tags = {
-  'Pengubah Suara': 'PENGUBAH SUARA',
+  'Pengubah Suara': '🎙️ PENGUBAH SUARA 🎙️',
   }
   if (teks == 'text') tags = {
-  'text': 'MAKER TEXT',
+  'text': '🐾 MAKER TEXT 🐾',
   }
   if (teks == 'premium') tags = {
-  'premium': 'PREMIUM MENU',
+  'premium': '👑 PREMIUM MENU 👑',
   }
   if (teks == 'quotes') tags = {
-  'quotes' : 'MENU QUOTES',
+  'quotes' : '📑 MENU QUOTES 📑',
   }
   if (teks == 'rpg') tags = {
-  'rpg': 'MENU RPG',
+  'rpg': '💣 MENU RPG 💣',
   }
   if (teks == 'stalk') tags = {
-  'stalk': 'MENU STALK',
+  'stalk': '👦 MENU STALK 👦',
   }
   if (teks == 'shortlink') tags = {
-  'shortlink': 'SHORT LINK',
+  'shortlink': '🔗 SHORT LINK 🔗',
   }
   if (teks == 'tools') tags = {
-  'tools': 'MENU TOOLS',
+  'tools': '⚒️ MENU TOOLS ⚒️',
   }
   if (teks == 'nsfw') tags = {
-  'nsfw': 'NSFW MENU', 
+  'nsfw': '🧼 NSFW MENU 🧼', 
   }
   if (teks == 'asupan') tags = {
-  'asupan': 'ASUPAN MENU', 
+  'asupan': '🍙 ASUPAN MENU 🍙', 
   }
   if (teks == 'random') tags = {
-  'random': 'RANDOM MENU', 
+  'random': '🎲 RANDOM MENU 🎲', 
   }
   if (teks == 'textpro') tags = {
-  'textpro': 'TEXT PRO MENU', 
+  'textpro': '✍️ TEXT PRO MENU ✍️'', 
   }
   if (teks == 'photooxy') tags = {
-  'photooxy': 'PHOTO OXY MENU', 
+  'photooxy': '💭 PHOTO OXY MENU 💭', 
   }
 
 //━━━━━━━━[ DATABASE USER ]━━━━━━━━//
@@ -285,26 +284,26 @@ const fdoc = {
 
 //━━━━━━━━[ BAGIAN MENU ]━━━━━━━━//
 if (teks == '404') {
-let menuu = `╔════【 ıll *${namebot}* llı 】═══⬣
+let menuu = `╔════【 ıll *${namebot}* llı 】═══֍
 ╠➵͜͡⫹⫺➥ Aktif selama ${uptime}
 ╠➵͜͡⫹⫺➥ ${Object.keys(global.db.data.users).length} Pengguna
 ╠➵͜͡⫹⫺➥ Mode : ${global.opts['self'] ? 'Self' : 'publik'}
 ╠➵͜͡⫹⫺➥ ${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length} Chat Terbanned
 ╠➵͜͡⫹⫺➥ ${Object.entries(global.db.data.users).filter(user => user[1].banned).length} Pengguna Terbanned
-╚══════⬣
-╔════【 ıll *${name}* llı 】═══⬣
+╚══════֍
+╔════【 ıll *${name}* llı 】═══֍
 ╠➵͜͡⫹⫺➥ Api : ${tag}
 ╠➵͜͡⫹⫺➥ Limit : ${limit}
 ╠➵͜͡⫹⫺➥ Role : ${role}
 ╠➵͜͡⫹⫺➥ Premium : ${global.prem ? 'Yes' : 'No'}
-╠➵͜͡⫹⫺➥ Date : ${week} ${date}
-╠➵͜͡⫹⫺➥ Time : ${wib}
-╚══════⬣
-╔════【 ıll *INFORMASI* llı 】═══⬣
+╚══════֍
+╔════【 ıll *INFORMASI* llı 】═══֍
 ╠⫹⫺ Hanaa bot masih dalam perkembangan
 ╠⫹⫺ Kalau menemukan bug / eror harap
 ╠⫹⫺ Lapor Ke Owner
-╚══════════════⬣`
+╚══════════════֍
+ Date : ${week} ${date}
+ Time : ${wib}`
 const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fromObject({
         listMessage: {
             title: `${ucapan()} ${name}`,

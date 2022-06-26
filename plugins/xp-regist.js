@@ -21,8 +21,8 @@ Daftar berhasil!
 ╭─「 Info 」
 │ Nama: ${name}
 │ Umur: ${age} tahun 
-╰────
-Serial Number: 
+
+Setiap Number: 
 ${sn}
 `.trim())
 }
