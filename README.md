@@ -53,7 +53,7 @@ WhatsApp Bot Multi Device
 [![Hanaa](https://github.com/HanaaCanss.png?size=200)](https://github.com/HanaaCanss)
 |----|
 [Hanaa](https://github.com/HanaaCanss)
- Author | Creator
+ Recoders
  
 ### Hyzer Statistics
 
