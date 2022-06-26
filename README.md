@@ -23,9 +23,9 @@
 
 ### Preview bot
 ------------------
-- [x] Welcome <details><summary>Screenshot</summary><img src="https://telegra.ph/file/b3b7dff3e285c84442c3c.jpg"></details>
+- [x] Welcome <details><summary>Screenshot</summary><img src="https://telegra.ph/file/e2d5dee4947908e1e9b7d.jpg"></details>
 - [x] Tampilan Menu <details><summary>Screenshot</summary><img src="https://telegra.ph/file/79328afe12af3b781575b.jpg"></details>
-- [x] All Menj  <details><summary>Screenshot</summary><img src="https://telegra.ph/file/dc3565c53a09154ef745e.jpg"></details>
+- [x] All Menj  <details><summary>Screenshot</summary><img src="https://telegra.ph/file/335ff8a8bfa1665e3bd97.jpg"></details>
 ------------------
 
 # Run On Heroku
