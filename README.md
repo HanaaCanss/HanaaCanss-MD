@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://telegra.ph/file/677780c08cc83059ac934.jpg" alt="Hyzer Md-V3" width="300" />
+<img src="https://telegra.ph/file/951752b235e226cf94939.png" alt="Hyzer Md-V3" width="300" />
 
 </p>
 <h1 align="center">Hanaa Cansss</h1>
@@ -12,7 +12,7 @@
   <a href="https://github.com/HanaaCanss"><img title="GitHub" src="https://img.shields.io/badge/Github-Hyzerr.svg?style=for-the-badge&logo=github" /></a>
   <h4 align="center">
   <a
-  <a href="https://wa.me/6287892711054">Chat Saya Jika Ingin Menanyakan Sesuatu </a>
+  <a href="https://wa.me/6281267758318">Chat Saya Jika Ingin Menanyakan Sesuatu </a>
 </h4>
 </p>
 
