@@ -15,19 +15,22 @@ global.pulsa = '083187631714'
 global.namebot = 'HanaaaBotzz'
 global.gc = 'https://chat.whatsapp.com/Jzd9DEVB5nODtNBk1VCNrV'
 global.web = 'universeworld.ml' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
-global.price1 = '1 bulan = 10.000\n2 Minggu 7.000\n1 Minggu 5.000'
-
+global.price1 = '╔══【 ıll *LIST* llı 】═֍\n\n╠➵͜͡⫹⫺ PERMANEN Rp 5000/AKUN\n╚═══════════֍\n\n╔══【 ıll *VIA* llı 】═֍
+╠➵͜͡⫹⫺ Dana : ${dana}
+╠➵͜͡⫹⫺ Pulsa : ${pulsa}
+╚══════════════════֍'
 //=======『 Tampilan Dan Lainnya 』============//
 global.fotonya1 = 'https://telegra.ph/file/869c320fa92ee73e8e422.png' //ganti jadi foto bot mu
-global.fotonya2 = 'https://telegra.ph/file/869c320fa92ee73e8e422.png' //ini juga ganti 
+global.fotonya2 = 'https://telegra.ph/file/951752b235e226cf94939.png' //ini juga ganti 
 global.lolkey = 'Papah-Chan' //biar mudah ngegantinya semisal apikeynya expired:v
 global.zenzkey = '046ac30e04e4' //ganti jadi apikey lu kalau expired
+global.hanakey = 'HanaaBotz' //gaush diganti ganti!
 global.wm = ''
 global.watermark = wm
-global.wm2 = '                     「 𝙷𝚊𝚗𝚊𝚊𝙲𝚊𝚗𝚜𝚜できる 」'
+global.wm2 = '            「 𝙷𝚊𝚗𝚊𝚊𝙲𝚊𝚗𝚜𝚜できる 」'
 global.wm3 = '⫹⫺ 𝙷𝚊𝚗𝚊𝚊𝙲𝚊𝚗𝚜𝚜できる'
-global.htki = '––––––『' 
-global.htka = '』––––––'
+global.htki = '════════֍' 
+global.htka = '֍════════'
 global.media = 'https://telegra.ph/file/72168c6f1aaa90315c369.jpg'
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=smurfs-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
 global.wait = '_*Tunggu kakk*_'
