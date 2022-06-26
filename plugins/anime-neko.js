@@ -4,7 +4,7 @@ let handler = async (m, { conn }) => {
   if (!res.ok) throw 'Error Website Lagi Down Kakk'
   let json = await res.json()
   if (!json.url) throw 'Error!'
-  conn.sendButtonImg(m.chat, json.url, 'TcihhhDasarr', wm2, 'Next', `.${command}`, m, 0, { thumbnail: Buffer.alloc(0) })
+  conn.sendFile(m.chat, json.url, '', 'Nyaww🐾', m, 0, { thumbnail: Buffer.alloc(0) })
 }
 handler.help = ['randomneko']
 handler.tags = ['anime']
