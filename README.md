@@ -12,7 +12,7 @@
   <a href="https://github.com/HanaaCanss"><img title="GitHub" src="https://img.shields.io/badge/Github-Hyzerr.svg?style=for-the-badge&logo=github" /></a>
   <h4 align="center">
   <a
-  <a href="https://wa.me/6287892711054">Chat Saya Jika Ingin Menanyakan Sesuatu </a>
+  <a href="https://wa.me/6281267758318">Chat Saya Jika Ingin Menanyakan Sesuatu </a>
 </h4>
 </p>
 
