@@ -86,94 +86,94 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
   'photooxy': '💭 PHOTO OXY MENU 💭', 
   }
   if (teks == 'absen') tags = {
-    'absen': '📝 MENU ABSEN 📝',
-    'vote': '📣 MENU VOTING 📣',
+    'absen': 'MENU ABSEN',
+    'vote': 'MENU VOTING',
   }
   if (teks == 'anime') tags = {
-  'anime': '🍭 MENU ANIME 🍭',
+  'anime': 'MENU ANIME',
   }
   if (teks == 'sticker') tags = {
-  'sticker': '🖨️ MENU CONVERT 🖨️',
+  'sticker': 'MENU CONVERT',
   }
   if (teks == 'downloader') tags = {
-  'downloader': '📁 MENU DOWNLOADER 📁'',
+  'downloader': 'MENU DOWNLOADER',
   }
   if (teks == 'xp') tags = {
-  'xp': '🎀 MENU EXP 🎀',
+  'xp': 'MENU EXP',
   }
   if (teks == 'fun') tags = {
-  'fun': '😁 MENU FUN 😁',
+  'fun': 'MENU FUN',
   }
   if (teks == 'game') tags = {
-  'game': '🎱 MENU GAME 🎱',
+  'game': 'MENU GAME',
   }
   if (teks == 'github') tags = {
-  'github': '🛸 MENU GITHUB 🛸',
+  'github': 'MENU GITHUB',
   }
   if (teks == 'group') tags = {
-  'group': '💬 MENU GROUP 💬',
+  'group': 'MENU GROUP',
   }
   if (teks == 'image') tags = {
-  'image': '🖼️ MENU IMAGE 🖼️',
+  'image': 'MENU IMAGE',
   }
   if (teks == 'info') tags = {
-  'info': 'ℹ️ MENU INFO ℹ️',
+  'info': 'MENU INFO',
   }
   if (teks == 'internet') tags = {
-  'internet': '🌐 INTERNET 🌐',
+  'internet': 'INTERNET',
   }
   if (teks == 'islam') tags = {
-  'islam' : '🕋 MENU ISLAMI 🕋',
+  'islam' : 'MENU ISLAMI',
   }
   if (teks == 'kerang') tags = {
-  'kerang': '🐚 MENU KERANG 🐚',
+  'kerang': 'MENU KERANG',
   }
   if (teks == 'maker') tags = {
-  'maker': '🎞️ MENU MAKER 🎞️',
+  'maker': 'MENU MAKER',
   }
   if (teks == 'owner') tags = {
     'owner': 'Owner',
     'host': 'Host',
-    'advanced': '🤖 MENU OWNER 🤖'
+    'advanced': 'Advanced'
   }
   if (teks == 'suara') tags = {
-  'Pengubah Suara': '🎙️ PENGUBAH SUARA 🎙️',
+  'Pengubah Suara': 'PENGUBAH SUARA',
   }
   if (teks == 'text') tags = {
-  'text': '🐾 MAKER TEXT 🐾',
+  'text': 'MAKER TEXT',
   }
   if (teks == 'premium') tags = {
-  'premium': '👑 PREMIUM MENU 👑',
+  'premium': 'PREMIUM MENU',
   }
   if (teks == 'quotes') tags = {
-  'quotes' : '📑 MENU QUOTES 📑',
+  'quotes' : 'MENU QUOTES',
   }
   if (teks == 'rpg') tags = {
-  'rpg': '💣 MENU RPG 💣',
+  'rpg': 'MENU RPG',
   }
   if (teks == 'stalk') tags = {
-  'stalk': '👦 MENU STALK 👦',
+  'stalk': 'MENU STALK',
   }
   if (teks == 'shortlink') tags = {
-  'shortlink': '🔗 SHORT LINK 🔗',
+  'shortlink': 'SHORT LINK',
   }
   if (teks == 'tools') tags = {
-  'tools': '⚒️ MENU TOOLS ⚒️',
+  'tools': 'MENU TOOLS',
   }
   if (teks == 'nsfw') tags = {
-  'nsfw': '🧼 NSFW MENU 🧼', 
+  'nsfw': 'NSFW MENU', 
   }
   if (teks == 'asupan') tags = {
-  'asupan': '🍙 ASUPAN MENU 🍙', 
+  'asupan': 'ASUPAN MENU', 
   }
   if (teks == 'random') tags = {
-  'random': '🎲 RANDOM MENU 🎲', 
+  'random': 'RANDOM MENU', 
   }
   if (teks == 'textpro') tags = {
-  'textpro': '✍️ TEXT PRO MENU ✍️', 
+  'textpro': 'TEXT PRO MENU', 
   }
   if (teks == 'photooxy') tags = {
-  'photooxy': '💭 PHOTO OXY MENU 💭', 
+  'photooxy': 'PHOTO OXY MENU', 
   }
 
 //━━━━━━━━[ DATABASE USER ]━━━━━━━━//
@@ -310,7 +310,7 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
             description: menuu,
             buttonText: 'SEMUA MENU',
             listType: 1,
-            footerText: "⫹⫺ 𝚂𝙸𝙻𝙰𝙷𝙺𝙰𝙽 𝙿𝙸𝙻𝙸𝙷 𝙼𝙴𝙽𝚄 𝙳𝙸 𝙱𝙰𝚆𝙰𝙷",
+            footerText: "𝚂𝙸𝙻𝙰𝙷𝙺𝙰𝙽 𝙿𝙸𝙻𝙸𝙷 𝙼𝙴𝙽𝚄 𝙳𝙸 𝙱𝙰𝚆𝙰𝙷",
             mtype: 'listMessage',
             sections: [
               {
@@ -592,18 +592,18 @@ function clockString(ms) {
 }
 function ucapan() {
   const time = moment.tz('Asia/Jakarta').format('HH')
-  res = "Selamat DiniHari 🏙️"
+  res = "Selamat DiniHari"
   if (time >= 4) {
-    res = "Selamat Pagi 🌄"
+    res = "Selamat Pagi"
   }
   if (time > 10) {
-    res = "Selamat Siang 🏜️"
+    res = "Selamat Siang"
   }
   if (time >= 15) {
-    res = "Selamat Sore 🌇"
+    res = "Selamat Sore"
   }
   if (time >= 18) {
-    res = "Selamat Malam 🌃"
+    res = "Selamat Malam"
   }
   return res
 }
