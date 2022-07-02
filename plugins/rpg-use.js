@@ -1,6 +1,5 @@
-let { MessageType } = require('@adiwajshing/baileys')
+let { MessageType } = require('@adiwajshing/baileys-md')
 let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) =>  {
-	if (!db.data.chats[m.chat].rpg && m.isGroup) throw global.rpg
     let msgerror = (pickRandom(['Error', 'astagfirullah error', 'Nice Error', 'Salah format keknya :v', 'error bro', 'Kocak error :v', 'wtf error :v', 'Ciaaa error', 'error cuyy', 'dahlah (emot batu) error']))
     try {
         let msgkurang = (pickRandom(['potionmu tidak cukup', 'ciaa gk cukup potionyya :v', 'wtf gk cukup :v', 'beli potion dulu, potionmu gk cukup', 'Duaarr potionmu gk cukup', 'eyyyy potionmu kurang', 'beli dulu lah, masak mau pakai potion tapi gk ada potionnnya :v', 'minta ke orang lain suruh transfer potion, biar potionmu gk kurang :v', 'Beli potion dulu KK']))
@@ -39,7 +38,7 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) =>  {
                     if (global.db.data.users[m.sender].potion >= count * 1) {
                         global.db.data.users[m.sender].potion -= count * 1
                         global.db.data.users[m.sender].healt += usepotion * count
-                        conn.sendButton(m.chat, msgsucces, wm, 'Adventure', `${usedPrefix}mulung`, m)
+                        conn.reply(m.chat, msgsucces, m)
                     } else conn.reply(m.chat, msgkurang, m)
                 } else conn.reply(m.chat, msgpenuh, m)
             } catch (e) {
@@ -70,7 +69,6 @@ handler.tags = ['rpg']
 handler.command = /^(use|heal)$/i
 
 module.exports = handler
-let wm = global.botwm
 
 function pickRandom(list) {
     return list[Math.floor(Math.random() * list.length)]
