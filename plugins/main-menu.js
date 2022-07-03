@@ -297,7 +297,7 @@ let menuu = `╔════【 ıll *${namebot}* llı 】═══֍
 ╠➵͜͡⫹⫺➥ Role : ${role}
 ╠➵͜͡⫹⫺➥ Date : ${week} ${date}
 ╠➵͜͡⫹⫺➥ Time : ${wib} 
-╠➵͜͡⫹⫺➥ Premium : ${global.prem ? 'Yes' : 'No'}
+╠➵͜͡⫹⫺➥ Premium : Yes
 ╚══════֍
 ╔════【 ıll *INFORMASI* llı 】═══֍
 ╠⫹⫺ Hanaa bot masih dalam perkembangan
@@ -310,7 +310,7 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
             description: menuu,
             buttonText: 'SEMUA MENU',
             listType: 1,
-            footerText: "𝚂𝙸𝙻𝙰𝙷𝙺𝙰𝙽 𝙿𝙸𝙻𝙸𝙷 𝙼𝙴𝙽𝚄 𝙳𝙸 𝙱𝙰𝚆𝙰𝙷",
+            footerText: "⫹⫺ 𝚂𝙸𝙻𝙰𝙷𝙺𝙰𝙽 𝙿𝙸𝙻𝙸𝙷 𝙼𝙴𝙽𝚄 𝙳𝙸 𝙱𝙰𝚆𝙰𝙷",
             mtype: 'listMessage',
             sections: [
               {
@@ -592,18 +592,18 @@ function clockString(ms) {
 }
 function ucapan() {
   const time = moment.tz('Asia/Jakarta').format('HH')
-  res = "Selamat DiniHari"
+  res = "Selamat DiniHari 🏙️"
   if (time >= 4) {
-    res = "Selamat Pagi"
+    res = "Selamat Pagi 🌄"
   }
   if (time > 10) {
-    res = "Selamat Siang"
+    res = "Selamat Siang 🏜️"
   }
   if (time >= 15) {
-    res = "Selamat Sore"
+    res = "Selamat Sore 🌇"
   }
   if (time >= 18) {
-    res = "Selamat Malam"
+    res = "Selamat Malam 🌃"
   }
   return res
 }

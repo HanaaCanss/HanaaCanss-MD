@@ -3,9 +3,8 @@ let nyenye = `https://api.lolhuman.xyz/api/random/nsfw/${command}?apikey=${lolke
     conn.sendButtonImg(m.chat, nyenye, 'TcihhhDasarr', wm2, 'Next', `.${command}`, m) 
 }
 handler.help = ['hollolewd', 'sideoppai', 'animefeets', 'animebooty', 'animethighss', 'animearmpits', 'lewdanimegirls', 'biganimetiddies']
-handler.tags = ['nsfw']
+handler.tags = ['nsfw','premium']
 handler.command = /^(hollolewd|sideoppai|animefeets|animebooty|animethighss|animearmpits|lewdanimegirls|biganimetiddies)$/i
-handler.premium = true
 handler.register = true
 handler.limit = true
 //buatan hyzer, samaa hanaa jangan dihapuss yahh
