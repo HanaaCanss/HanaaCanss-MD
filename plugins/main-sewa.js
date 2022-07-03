@@ -1,34 +1,35 @@
-let fs = require('fs')
+/*
+ * ngelarang lu biar g diubah kyknya emg susah ya anjg
+ * jadi kalau lu g bsa ngehargain orang
+ * setidaknya buat sc ori by gw, trs buat sc lu hasil copas tuh
+ * better bgtu dripada nma gw dihapus smua
+ * najis 👎🗿
+*/
+
 let handler = async (m, { conn }) => {
-let teks = 'sewa bot'
-let dana = global.dana
-let pulsa = global.pulsa
-let gopay = global.gopay
-let numberowner = global.numberowner
-let anu = `Hai Kakk👋
-Ini List Harga Sewanya Kakk
-╔═══〔 Pembayaran Via 〕══➣
-╠➥ PRIVATE CHAT = FREE
-╠➥ 1 GRUP / BULAN = 5K
-╠➥ 1 GRUP PERMANENT = 15K
-╔═══〔 Pembayaran Via 〕══➣
-╠➥ Dana : ${dana}
-╠➥ Pulsa : ${pulsa}
-╔═══〔 FITUR 〕══➣
-╠➥ 24 JAM ONLINE
-╠➥ FAST RESPOND
-╠➥ VVIP BOT / PREMIUM
-╠➥ FITUR 200+
-╚═══════════════════➣
+let ye = `@${m.sender.split`@`[0]}`
+let esce = `
+Hai ${ye} Ini List Harga Sewanya:
 
-Arigatou!
+LIST:
+PER GRUP 1 BULAN = 5K
+PER GRUP PERMANENT = 20K
 
-Contact person Owner:
-wa.me/${numberowner} (Owner)`
-  conn.sendButtonImg(m.chat, fla + teks, anu, wm2, 'Back', '.help', m) 
+PEMBAYARAN VIA:
+Dana : 083187631714
+Pulsa : 083187631714
+
+FITUR:
+24 JAM ONLINE
+FAST RESPOND
+VVIP / PREMIUM
+300+ FITUR
+
+_*JIKA INGIN MEMBELI HUBUNGI OWNER TERLEBIH DAHULU YAHH*_`
+conn.sendBut(m.chat, esce, wm3, 'Arigatou', 'arigatou', m) 
 }
 handler.help = ['sewabot', 'sewa']
-handler.tags = ['xp', 'info']
+handler.tags = ['xp','info']
 handler.command = /^(sewabot|sewa)$/i
 
 module.exports = handler
