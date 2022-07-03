@@ -6,16 +6,17 @@ global.prems = []
 //=============『 Info Owner 』============== //
 global.nameowner = 'HanaaCanss'
 global.numberowner = '6281270275470'
-global.instagram = 'NOT FOUND'
-global.github = 'PRIVATE'
-global.dana = '081267758318'
+global.instagram = 'Private'
+global.github = 'https://github.com/HanaaCanss'
+global.dana = '083187631714'
 global.pulsa = '083187631714'
 
 //=============『 Info Bot 』=================//
-global.namebot = 'HanaaaBotzz'
-global.gc = 'https://chat.whatsapp.com/Jzd9DEVB5nODtNBk1VCNrV'
-global.web = 'portal.axolotlnetwork.ml' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
-global.price1 = 'Nothing'
+global.namebot = 'HanaaBotz'
+global.gc = 'Tidak Ada'
+global.web = 'https://github.com/HanaaCanss' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
+global.price1 = '1 bulan = 10.000\n2 Minggu 7.000\n1 Minggu 5.000'
+
 //=======『 Tampilan Dan Lainnya 』============//
 global.fotonya1 = 'https://telegra.ph/file/869c320fa92ee73e8e422.png' //ganti jadi foto bot mu
 global.fotonya2 = 'https://telegra.ph/file/869c320fa92ee73e8e422.png' //ini juga ganti 
@@ -71,7 +72,7 @@ global.APIKeys = { // APIKey Here
   'https://api.xteam.xyz': 'd37372311698ed1d',
   'https://zahirr-web.herokuapp.com': 'zahirgans',
   'https://bsbt-api-rest.herokuapp.com': 'benniismael',
-  'https://api.zeks.xyz': '046ac30e04e4',
+  'https://api.zeks.xyz': 'apivinz',
   'https://hardianto-chan.herokuapp.com': 'hardianto',
   'https://pencarikode.xyz': 'pais', 
   'https://leyscoders-api.herokuapp.com': 'dappakntlll',

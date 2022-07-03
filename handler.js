@@ -706,9 +706,9 @@ module.exports = {
                             pp = await this.profilePictureUrl(user, 'image')
                         } catch (e) {
                         } finally {
-                            text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Hallo Kakk @user Selamat Datang!').replace('@subject', groupMetadata.subject).replace('@desc', groupMetadata.desc.toString()) :
-                                (chat.sBye || this.bye || conn.bye || 'Dadah Kakkk , Jangann Balik Lagii Yahh🍭'))
-                                this.sendButtonImg(id, pp, text, "Group Message", "Huuuu🗿", "hehe", null)
+                            text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Hallo kakk selamat datang di').replace('@subject', groupMetadata.subject).replace('@desc', groupMetadata.desc.toString()) :
+                                (chat.sBye || this.bye || conn.bye || 'Dadahh kakk , moga ga balik lagi🍭'))
+                                this.sendButtonImg(id, pp, text, "Group Message", "Huuuu🗿", "wkwk", null)
                                 }
                     }
                 }
@@ -773,7 +773,7 @@ global.dfail = (type, m, conn) => {
     restrict: 'Fitur ini di *disable*!',
     }[type]
   if (msg) return conn.sendBut(m.chat, msg, '❑ Silahkan klik menu dibawah ini', '⋮☰ Menu', '.menu', m)
- let unreg = {
+        let unreg = {
   unreg: `
 ┏━━━〔 ıll 𝐑𝐄𝐆𝐈𝐒𝐓𝐄𝐑 llı 〕━━❑
 ⬡ Hallo mypren👋, @${m.sender.split`@`[0]}
@@ -786,7 +786,6 @@ global.dfail = (type, m, conn) => {
 ┗━━━━━━━━━━❑ `
   }[type]
  if (unreg) return conn.sendBut(m.chat, unreg, '❑ Silahkan Klik reg dibawah ini ❑', 'Register', `.daftar @${m.sender.split`@`[0]}.18`, m)
- }
  }
 
 let fs = require('fs')
