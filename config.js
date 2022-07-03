@@ -1,24 +1,24 @@
 //=============『 Utama 』================== //
-global.owner = ['6287892711054'] 
+global.owner = ['6281270275370','6281267758318'] 
 global.mods = [] 
 global.prems = [] 
 
 //=============『 Info Owner 』============== //
 global.nameowner = 'HanaaCanss'
 global.numberowner = '6281270275470'
-global.instagram = 'https://instagram.com/hyzer_stfu'
+global.instagram = 'NOT FOUND'
 global.github = 'PRIVATE'
-global.dana = '083187631714'
+global.dana = '081267758318'
 global.pulsa = '083187631714'
 
 //=============『 Info Bot 』=================//
 global.namebot = 'HanaaaBotzz'
 global.gc = 'https://chat.whatsapp.com/Jzd9DEVB5nODtNBk1VCNrV'
-global.web = 'universeworld.ml' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
-global.price1 = 'LIST ITEM & HARGA\n\nPERMANENT 5K PER AKUN \n\nHubungi Owner Jika Ingin Membeli'
+global.web = 'portal.axolotlnetwork.ml' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
+global.price1 = 'Nothing'
 //=======『 Tampilan Dan Lainnya 』============//
 global.fotonya1 = 'https://telegra.ph/file/869c320fa92ee73e8e422.png' //ganti jadi foto bot mu
-global.fotonya2 = 'https://telegra.ph/file/951752b235e226cf94939.png' //ini juga ganti 
+global.fotonya2 = 'https://telegra.ph/file/869c320fa92ee73e8e422.png' //ini juga ganti 
 global.lolkey = 'Papah-Chan' //biar mudah ngegantinya semisal apikeynya expired:v
 global.zenzkey = '046ac30e04e4' //ganti jadi apikey lu kalau expired
 global.hanakey = 'HanaaBotz' //gaush diganti ganti!
