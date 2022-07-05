@@ -22,6 +22,7 @@ global.fotonya2 = 'https://telegra.ph/file/869c320fa92ee73e8e422.png' //ini juga
 global.lolkey = 'Papah-Chan' //biar mudah ngegantinya semisal apikeynya expired:v
 global.zenzkey = '046ac30e04e4' //ganti jadi apikey lu kalau expired
 global.hanakey = 'HanaaBotz' //gaush diganti ganti!
+global.zeeone = 'LvtL8Vw2' //ganti pake apikey lu yah
 global.wm = ''
 global.watermark = wm
 global.wm2 = '            「 𝙷𝚊𝚗𝚊𝚊𝙲𝚊𝚗𝚜𝚜できる 」'
