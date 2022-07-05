@@ -5,7 +5,7 @@ let dana = global.dana
 let pulsa = global.pulsa
 let gopay = global.gopay
 let numberowner = global.numberowner
-let anu = `Hallo mypren 👋
+let anu = `Hallo kakk 👋
 ━━━〔 ıll *Sewa Bot* llı 〕━━㉿
 ━━━━━━━━━━━━━━━━━━━━
 ━━━〔 ıll *HARGA* llı 〕━━㉿
@@ -17,8 +17,6 @@ let anu = `Hallo mypren 👋
 ┗━━━━━━━━━━━━━━━━━━㉿
 ┏━━━〔 ıll *PAYMENT* llı 〕━━㉿
 ⬡ *DANA:* ${dana}
-⬡ *GOPAY:* ${gopay}
-⬡ *OVO:* ${pulsa}
 ⬡ *PULSA:* ${pulsa}
 ┗━━━━━━━━━━━━━━━━━━㉿
 ┏━━〔 ıll *RULES* llı 〕━㉿
@@ -28,16 +26,16 @@ let anu = `Hallo mypren 👋
 Jika anda berminat hubungi nomor di bawah!!
 
 ⟩» *jangan lupa donasi kak* «⟨
-Terimakasih yang sudah mendonasikan untuk bot
+Terimakasih yang sudah mendonasikan untuk bot ini
 
 Contact person Sewa Bot:
 wa.me/${numberowner} (Owner)
 
-*Follow Instagram ku juga kak😼*`
-  conn.send3ButtonImg(m.chat, fla + teks, anu, instagram, 'Donasi', '.donasi', 'Owner', '.owner', 'Menu', '.menu', m) 
+*Follow githubku juga kakk😼*`
+  conn.send3ButtonImg(m.chat, fla + teks, anu, github, 'Donasi', '.donasi', 'Owner', '.owner', 'Menu', '.menu', m) 
 }
-handler.help = ['sewazifa']
+handler.help = ['sewahana']
 handler.tags = ['info']
-handler.command = /^(zifasewa|sewazifa)$/i
+handler.command = /^(hanasewa|sewahana|sewa|sewabot)$/i
 
 module.exports = handler

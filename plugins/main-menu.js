@@ -45,11 +45,11 @@ const defaultMenu = {
   footer: '╚════\n', 
   after: `
 ╔══【 ıll *THANKS TO* llı 】═֍
-⫹⫺ Allah SWT
-⫹⫺ HanaaCanss
-⫹⫺ Nurutomo
-⫹⫺ Elyas
-⫹⫺ Hyzer
+╠⫹⫺ Allah SWT
+╠⫹⫺ HanaaCanss
+╠⫹⫺ Nurutomo
+╠⫹⫺ Elyas
+╠⫹⫺ Hyzer
 ╚══════════════֍
 `,
 }
@@ -58,7 +58,7 @@ const defaultMenu = {
 let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
   let tags
   let teks = `${args[0]}`.toLowerCase()
-  let arrayMenu = ['all', 'absen', 'rpg', 'anime', 'downloader', 'game', 'fun', 'xp', 'github', 'group', 'image', 'quotes', 'admin', 'info', 'internet', 'islam', 'kerang', 'maker', 'owner', 'suara', 'premium', 'quotes', 'info', 'stalk', 'shortlink', 'sticker', 'tools', 'text', 'nsfw', 'asupan', 'random', 'textpro', 'photooxy']
+  let arrayMenu = ['all', 'absen', 'rpg', 'anime', 'downloader', 'game', 'fun', 'xp', 'github', 'group', 'image', 'quotes', 'admin', 'info', 'internet', 'islam', 'kerang', 'maker', 'owner', 'suara', 'premium', 'quotes', 'info', 'stalk', 'shortlink', 'sticker', 'tools', 'text', 'nsfw', 'asupan', 'random', 'textpro', 'photooxy','cecan']
   if (!arrayMenu.includes(teks)) teks = '404'
   if (teks == 'all') tags = {
   'main': '☰ MENU UTAMA ☰',
@@ -92,6 +92,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
   'random': '🎲 RANDOM MENU 🎲', 
   'textpro': '✍️ TEXT PRO MENU ✍️', 
   'photooxy': '💭 PHOTO OXY MENU 💭', 
+  'cecan': '🍭 GACHA CECAN 🍭',
   }
   if (teks == 'absen') tags = {
     'absen': 'MENU ABSEN',
@@ -182,6 +183,9 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
   }
   if (teks == 'photooxy') tags = {
   'photooxy': 'PHOTO OXY MENU', 
+  }
+  if (teks == 'cecan') tags = {
+  'cecan': 'GACHA CECAN', 
   }
 
 //━━━━━━━━[ DATABASE USER ]━━━━━━━━//
@@ -305,7 +309,7 @@ let menuu = `╔════【 ıll *${namebot}* llı 】═══֍
 ╠➵͜͡⫹⫺➥ Role : ${role}
 ╠➵͜͡⫹⫺➥ Date : ${week} ${date}
 ╠➵͜͡⫹⫺➥ Time : ${wib} 
-╠➵͜͡⫹⫺➥ Premium : Yes
+╠➵͜͡⫹⫺➥ Premium : ${global.prem ? 'Yes' : 'No'}
 ╚══════֍
 ╔════【 ıll *INFORMASI* llı 】═══֍
 ╠⫹⫺ Hanaa bot masih dalam perkembangan
@@ -327,7 +331,7 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
                   "description": "Nomor Pemilik Bot Chat P/Meminta Save Tidak Akan Di Respon",
                   "rowId": `.owner`
                 },{
-                  "title": `💳⟩» SEWA BOT`,
+                  "title": `⋮☰【💳】SEWA BOT`,
                   "description": "Sewa Untuk Grup Kakk",
                   "rowId": `.sewazifa`
                 },{
@@ -354,10 +358,6 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
                   "description": "Menampilkan Menu Anime",
                   "rowId": `${_p}? asupan`
                 }, {
-                  "title": "⋮☰【🎇】STICKER & CONVERTER",
-                  "description": "Menampilkan Menu Sticker",
-                  "rowId": `${_p}? sticker`
-                }, {
                   "title": "⋮☰【📺】DOWNLOADER",
                   "description": "Menampilkan Menu Downloader",
                   "rowId": `${_p}? downloader`
@@ -369,6 +369,10 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
                   "title": "⋮☰【🐣】FUN  ",
                   "description": "Menampilkan Menu Fun",
                   "rowId": `${_p}? fun`
+                }, {
+                  "title": "⋮☰【🍭】GACHA CECAN ",
+                  "description": "Menampilkan Menu Cecan",
+                  "rowId": `${_p}? cecan`
                 }, {
                   "title": "⋮☰【🎮】GAME ",
                   "description": "Menampilkan Menu Game",
@@ -421,6 +425,10 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
                   "title": "⋮☰【🗡️ 】RPG ",
                   "description": "Menampilkan Menu Rpg",
                   "rowId": `${_p}? rpg`
+                }, {
+                  "title": "⋮☰【🎇】STICKER & CONVERTER",
+                  "description": "Menampilkan Menu Sticker",
+                  "rowId": `${_p}? sticker`
                 }, {
                   "title": "⋮☰【🐾】STALKER ",
                   "description": "Menampilkan Menu Stalker",

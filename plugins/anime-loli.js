@@ -1,13 +1,13 @@
-import fetch from 'node-fetch'
-
+let fetch = require('node-fetch')
 let handler = async (m, { conn }) => {
 	let url = loli[Math.floor(Math.random() * loli.length)]
-	conn.sendButton(m.chat,api-hyzer, 'Larii Adaa Om Pedoo🍭', wm2,'LANJUT','.loli',m)
+	conn.sendButton(m.chat, 'Larii,Ada om pedo🐬', wm, url, ['Next','.loli'],m)
 }
-handler.command = /^(loli)$/i
-handler.tags = ['anime']
 handler.help = ['loli']
-export default handler
+handler.tags = ['anime']
+handler.command = /^(loli)$/i
+
+module.exports = handler
 
 global.loli = [
   "https://i.imgur.com/cvqoK7l.jpg",
