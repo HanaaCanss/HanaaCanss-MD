@@ -333,7 +333,7 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
                 },{
                   "title": `⋮☰【💳】SEWA BOT`,
                   "description": "Sewa Untuk Grup Kakk",
-                  "rowId": `.sewazifa`
+                  "rowId": `.sewahana`
                 },{
                   "title": "⋮☰【❗】INFO BOT",
                   "description": "Menampilkan Menu Info",
