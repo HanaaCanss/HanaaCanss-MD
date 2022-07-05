@@ -43,7 +43,15 @@ const defaultMenu = {
   header: '╔═ 【  %category  】 ',
   body: '╠☰➵͜͡❁ %cmd %islimit %isPremium',
   footer: '╚════\n', 
-  after: ``,
+  after: `
+╔══【 ıll *THANKS TO* llı 】═֍
+⫹⫺ Allah SWT
+⫹⫺ HanaaCanss
+⫹⫺ Nurutomo
+⫹⫺ Elyas
+⫹⫺ Hyzer
+╚══════════════֍
+`,
 }
 
 //━━━━━━━━[ CATEGORY ]━━━━━━━━//
@@ -308,7 +316,7 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
         listMessage: {
             title: `${ucapan()} ${name}`,
             description: menuu,
-            buttonText: 'SEMUA MENU',
+            buttonText: 'KLIK DISINI',
             listType: 1,
             footerText: "⫹⫺ 𝚂𝙸𝙻𝙰𝙷𝙺𝙰𝙽 𝙿𝙸𝙻𝙸𝙷 𝙼𝙴𝙽𝚄 𝙳𝙸 𝙱𝙰𝚆𝙰𝙷",
             mtype: 'listMessage',
@@ -318,6 +326,10 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
                   "title": `⋮☰【👨】OWNER BOT`,
                   "description": "Nomor Pemilik Bot Chat P/Meminta Save Tidak Akan Di Respon",
                   "rowId": `.owner`
+                },{
+                  "title": `💳⟩» SEWA BOT`,
+                  "description": "Sewa Untuk Grup Kakk",
+                  "rowId": `.sewazifa`
                 },{
                   "title": "⋮☰【❗】INFO BOT",
                   "description": "Menampilkan Menu Info",
@@ -337,6 +349,10 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
                   "title": "⋮☰【⛩️】ANIME",
                   "description": "Menampilkan Menu Anime",
                   "rowId": `${_p}? anime`
+                }, {
+                  "title": "⋮☰【🍙】ASUPAN MENU",
+                  "description": "Menampilkan Menu Anime",
+                  "rowId": `${_p}? asupan`
                 }, {
                   "title": "⋮☰【🎇】STICKER & CONVERTER",
                   "description": "Menampilkan Menu Sticker",

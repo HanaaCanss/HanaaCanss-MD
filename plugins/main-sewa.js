@@ -1,35 +1,43 @@
-/*
- * ngelarang lu biar g diubah kyknya emg susah ya anjg
- * jadi kalau lu g bsa ngehargain orang
- * setidaknya buat sc ori by gw, trs buat sc lu hasil copas tuh
- * better bgtu dripada nma gw dihapus smua
- * najis 👎🗿
-*/
-
+let fs = require('fs')
 let handler = async (m, { conn }) => {
-let ye = `@${m.sender.split`@`[0]}`
-let esce = `
-Hai ${ye} Ini List Harga Sewanya:
+let teks = 'Sewa'
+let dana = global.dana
+let pulsa = global.pulsa
+let gopay = global.gopay
+let numberowner = global.numberowner
+let anu = `Hallo mypren 👋
+━━━〔 ıll *Sewa Bot* llı 〕━━㉿
+━━━━━━━━━━━━━━━━━━━━
+━━━〔 ıll *HARGA* llı 〕━━㉿
+⬡ *1 BULAN* 5.000
+⬡ *PERMANEN 2 grup:* 10.000
+⬡ *PERMANEN 3-6 grup:* 20.000
+⟩» lebih dari 6 tambah +5.000
+📮 *batas scan 5 kali !*
+┗━━━━━━━━━━━━━━━━━━㉿
+┏━━━〔 ıll *PAYMENT* llı 〕━━㉿
+⬡ *DANA:* ${dana}
+⬡ *GOPAY:* ${gopay}
+⬡ *OVO:* ${pulsa}
+⬡ *PULSA:* ${pulsa}
+┗━━━━━━━━━━━━━━━━━━㉿
+┏━━〔 ıll *RULES* llı 〕━㉿
+⬡ [❗] *Dana yang sudah masuk tida bisa di kembalikan*
+⬡ [❗] *Kalau akunmu ke banned bukan urusan saya*
+┗━━━━━━━━━━㉿
+Jika anda berminat hubungi nomor di bawah!!
 
-LIST:
-PER GRUP 1 BULAN = 5K
-PER GRUP PERMANENT = 20K
+⟩» *jangan lupa donasi kak* «⟨
+Terimakasih yang sudah mendonasikan untuk bot
 
-PEMBAYARAN VIA:
-Dana : 083187631714
-Pulsa : 083187631714
+Contact person Sewa Bot:
+wa.me/${numberowner} (Owner)
 
-FITUR:
-24 JAM ONLINE
-FAST RESPOND
-VVIP / PREMIUM
-300+ FITUR
-
-_*JIKA INGIN MEMBELI HUBUNGI OWNER TERLEBIH DAHULU YAHH*_`
-conn.sendBut(m.chat, esce, wm3, 'Arigatou', 'arigatou', m) 
+*Follow Instagram ku juga kak😼*`
+  conn.send3ButtonImg(m.chat, fla + teks, anu, instagram, 'Donasi', '.donasi', 'Owner', '.owner', 'Menu', '.menu', m) 
 }
-handler.help = ['sewabot', 'sewa']
-handler.tags = ['xp','info']
-handler.command = /^(sewabot|sewa)$/i
+handler.help = ['sewazifa']
+handler.tags = ['info']
+handler.command = /^(zifasewa|sewazifa)$/i
 
 module.exports = handler
