@@ -32,7 +32,7 @@
 
 WhatsApp Bot Multi Device
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Hyzerr/MD-V3)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/HanaaCanss/HanaaCanss-MD)
 
 
 # Heroku Buildpack
