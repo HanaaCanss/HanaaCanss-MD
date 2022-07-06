@@ -7,8 +7,8 @@ global.prems = []
 global.nameowner = 'HanaaCanss'
 global.numberowner = '6281270275470'
 global.instagram = 'NOT FOUND'
-global.github = 'PRIVATE'
-global.dana = '081267758318'
+global.github = 'github.com/HanaaCanss/HanaaCanss-MD'
+global.dana = '083287631714'
 global.pulsa = '083187631714'
 
 //=============『 Info Bot 』=================//
