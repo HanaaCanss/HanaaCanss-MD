@@ -1,7 +1,7 @@
 let fetch = require('node-fetch')
 let handler = async (m, { conn }) => {
 	let url = loli[Math.floor(Math.random() * loli.length)]
-	conn.sendButton(m.chat, url, 'Lariii , Ada Om Pedoo Aaaa 🐳', wm2, 'Next', '.loli',m)
+	conn.sendButtonImg(m.chat, url, 'TcihhhDasarr', wm2, 'Next', '.loli', m)
 }
 handler.help = ['loli']
 handler.tags = ['anime']
