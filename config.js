@@ -1,24 +1,26 @@
 //=============『 Utama 』================== //
 global.owner = ['6281270275370','6281267758318'] 
 global.mods = [] 
-global.prems = ['6281270275370','6281267758318'] 
+global.prems = [] 
 
 //=============『 Info Owner 』============== //
 global.nameowner = 'HanaaCanss'
 global.numberowner = '6281270275470'
 global.instagram = 'NOT FOUND'
-global.github = 'github.com/HanaaCanss/HanaaCanss-MD'
-global.dana = '083287631714'
+global.github = 'PRIVATE'
+global.dana = '083187631714'
 global.pulsa = '083187631714'
+global.gopay = '083187631714'
+global.saweria = 'https://saweria.co/HanaaCanss'
 
 //=============『 Info Bot 』=================//
 global.namebot = 'HanaaaBotzz'
 global.gc = 'https://chat.whatsapp.com/Jzd9DEVB5nODtNBk1VCNrV'
-global.web = 'portal.axolotlnetwork.ml' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
+global.web = 'api.hanaacanss.ml' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
 global.price1 = '𝐍𝐈𝐇 𝐁𝐀𝐍𝐆 𝐋𝐈𝐒𝐓 𝐒𝐄𝐖𝐀𝐍𝐘𝐀\n\n》PERMANEN Rp 10.000\nMAKSIMAL 2 GRUP\n》PERMANEN  Rp 20.000\nMAKSIMAL 6 GRUP \n》1 BULAN Rp 5.000\nMAKSIMAL 1 GRUP'
 //=======『 Tampilan Dan Lainnya 』============//
-global.fotonya1 = 'https://telegra.ph/file/ea4bdac4c01d1e86a50fb.png' //ganti jadi foto bot mu
-global.fotonya2 = 'https://telegra.ph/file/ea4bdac4c01d1e86a50fb.png' //ini juga ganti 
+global.fotonya1 = 'https://telegra.ph/file/869c320fa92ee73e8e422.png' //ganti jadi foto bot mu
+global.fotonya2 = 'https://telegra.ph/file/869c320fa92ee73e8e422.png' //ini juga ganti 
 global.lolkey = 'Papah-Chan' //biar mudah ngegantinya semisal apikeynya expired:v
 global.zenzkey = '046ac30e04e4' //ganti jadi apikey lu kalau expired
 global.hanakey = 'HanaaBotz' //gaush diganti ganti!
