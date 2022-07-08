@@ -8,9 +8,9 @@ let saweria = global.saweria
 let numberowner = global.numberowner
 let anu = `Hai Kakk👋
 Kalian bisa mendukung hanaa agar bot ini tetap up to date dengan:
-┏━━━〔 Donasi • Emoney 〕━━☸
-┣➵͜͡☯ Saweria : ${saweria}
-┗━━━━━━━━━━━━☸
+┏━━━〔 Donasi • Emoney 〕━━֍
+┣➵͜͡✦ Saweria : ${saweria}
+┗━━━━━━━━━━━━֍
 Berapapun donasi kalian akan sangat berarti 👍
 
 Arigatou!

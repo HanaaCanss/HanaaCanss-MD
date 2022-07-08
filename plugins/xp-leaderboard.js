@@ -12,19 +12,19 @@ let handler = async (m, { conn, args, participants }) => {
   let len = args[0] && args[0].length > 0 ? Math.min(100, Math.max(parseInt(args[0]), 5)) : Math.min(5, sortedExp.length)
   let text = `
 ┏━「 *〽️ XP Leaderboard Top ${len}* 」
-┣☸ Kamu: *${usersExp.indexOf(m.sender) + 1}* dari *${usersExp.length}*
+┣֍ Kamu: *${usersExp.indexOf(m.sender) + 1}* dari *${usersExp.length}*
 ║
-${sortedExp.slice(0, len).map(({ jid, exp }, i) => `┣☸ ${i + 1}. ${participants.some(p => jid === p.jid) ? `(${conn.getName(jid)}) wa.me/` : '@'}${jid.split`@`[0]} *${exp} Exp*`).join`\n`}
+${sortedExp.slice(0, len).map(({ jid, exp }, i) => `┣֍ ${i + 1}. ${participants.some(p => jid === p.jid) ? `(${conn.getName(jid)}) wa.me/` : '@'}${jid.split`@`[0]} *${exp} Exp*`).join`\n`}
 ┗━━━━
 ┏━「 *🍋 Limit Leaderboard Top ${len}* 」
-┣☸ Kamu: *${usersLim.indexOf(m.sender) + 1}* dari *${usersLim.length}*
+┣֍ Kamu: *${usersLim.indexOf(m.sender) + 1}* dari *${usersLim.length}*
 ║
-${sortedLim.slice(0, len).map(({ jid, limit }, i) => `┣☸ ${i + 1}. ${participants.some(p => jid === p.jid) ? `(${conn.getName(jid)}) wa.me/` : '@'}${jid.split`@`[0]} *${limit} Limit*`).join`\n`}
+${sortedLim.slice(0, len).map(({ jid, limit }, i) => `┣֍ ${i + 1}. ${participants.some(p => jid === p.jid) ? `(${conn.getName(jid)}) wa.me/` : '@'}${jid.split`@`[0]} *${limit} Limit*`).join`\n`}
 ┗━━━━
 ┏━「 *😋 Level Leaderboard Top ${len}* 」
-┣☸ Kamu: *${usersLevel.indexOf(m.sender) + 1}* dari *${usersLevel.length}*
+┣֍ Kamu: *${usersLevel.indexOf(m.sender) + 1}* dari *${usersLevel.length}*
 ║
-${sortedLevel.slice(0, len).map(({ jid, level }, i) => `┣☸ ${i + 1}. ${participants.some(p => jid === p.jid) ? `(${conn.getName(jid)}) wa.me/` : '@'}${jid.split`@`[0]} *Level ${level}*`).join`\n`}
+${sortedLevel.slice(0, len).map(({ jid, level }, i) => `┣֍ ${i + 1}. ${participants.some(p => jid === p.jid) ? `(${conn.getName(jid)}) wa.me/` : '@'}${jid.split`@`[0]} *Level ${level}*`).join`\n`}
 ┗━━━━`.trim()
   m.reply(text)
 }

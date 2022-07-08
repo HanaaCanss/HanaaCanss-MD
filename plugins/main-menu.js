@@ -22,35 +22,35 @@ let moment = require('moment-timezone')
 //━━━━━━━━[ DEFAULT MENU ]━━━━━━━━//
 const defaultMenu = {
   before:`
-┏━━【 ıll *INFO USER* llı 】━☸
+┏━━【 ıll *INFO USER* llı 】━֍
 ┣➵͜͡❁ USER : *%name*
 ┣➵͜͡❁ SISA LIMIT *%limit LIMIT
 ┣➵͜͡❁ ROLE *%role*
 ┣➵͜͡❁ LEVEL*%level (%exp / %maxexp)*
 ┣➵͜͡❁ TOTAL XP : *%totalexp* 𝚇𝙿
 ┃ 
-┣━━【 ıll *T O D A Y* llı 】━☸
+┣━━【 ıll *T O D A Y* llı 】━֍
 ┣➵͜͡❁ TODAY : *%week %weton*
 ┣➵͜͡❁ DATE : *%date*
 ┣➵͜͡❁ TIME : *%time*
 ┃
-┣━━【 ıll *DATABASE* llı】━☸
+┣━━【 ıll *DATABASE* llı】━֍
 ┣➵͜͡❁ UPTIME : *%uptime
 ┣➵͜͡❁ DATABASE : %rtotalreg dari %totalreg
 ┣➵͜͡❁ MEMORY USED : *${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB*
-┗━━━━━━━━━━━━━━━━━━☸
+┗━━━━━━━━━━━━━━━━━━֍
 %readmore`.trimStart(), 
   header: '┏━ 【  %category  】 ',
-  body: '┣☰➵͜͡☯ %cmd %islimit %isPremium',
+  body: '┣☰➵͜͡✦ %cmd %islimit %isPremium',
   footer: '┗━━━━\n', 
   after: `
-┏━━【 ıll *THANKS TO* llı 】━☸
+┏━━【 ıll *THANKS TO* llı 】━֍
 ┣➵͜͡❁ Allah SWT
 ┣➵͜͡❁ HanaaCanss
 ┣➵͜͡❁ Nurutomo
 ┣➵͜͡❁ Elyas
 ┣➵͜͡❁ Hyzer
-┗━━━━━━━━━━━━━━☸
+┗━━━━━━━━━━━━━━֍
 `,
 }
 
@@ -296,26 +296,26 @@ const fdoc = {
 
 //━━━━━━━━[ BAGIAN MENU ]━━━━━━━━//
 if (teks == '404') {
-let menuu = `┏━━━━【 ıll *${namebot}* llı 】━━━☸
+let menuu = `┏━━━━【 ıll *${namebot}* llı 】━━━֍
 ┣➵͜͡❁ Aktif selama ${uptime}
 ┣➵͜͡❁ ${Object.keys(global.db.data.users).length} Pengguna
 ┣➵͜͡❁ Mode : ${global.opts['self'] ? 'Self' : 'publik'}
 ┣➵͜͡❁ ${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length} Chat Terbanned
 ┣➵͜͡❁ ${Object.entries(global.db.data.users).filter(user => user[1].banned).length} Pengguna Terbanned
-┗━━━━━━☸
-┏━━━━【 ıll *${name}* llı 】━━━☸
+┗━━━━━━֍
+┏━━━━【 ıll *${name}* llı 】━━━֍
 ┣➵͜͡❁ Api : ${tag}
 ┣➵͜͡❁ Limit : ${limit}
 ┣➵͜͡❁ Role : ${role}
 ┣➵͜͡❁ Date : ${week} ${date}
 ┣➵͜͡❁ Time : ${wib} 
 ┣➵͜͡❁ Premium : ${global.prem ? 'Yes' : 'No'}
-┗━━━━━━☸
-┏━━━━【 ıll *INFORMASI* llı 】━━━☸
+┗━━━━━━֍
+┏━━━━【 ıll *INFORMASI* llı 】━━━֍
 ┣⫹⫺ Hanaa bot masih dalam perkembangan
 ┣⫹⫺ Kalau menemukan bug / eror harap
 ┣⫹⫺ Lapor Ke Owner
-┗━━━━━━━━━━━━━━☸`
+┗━━━━━━━━━━━━━━֍`
 const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fromObject({
         listMessage: {
             title: `${ucapan()} ${name}`,
