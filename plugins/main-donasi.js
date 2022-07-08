@@ -4,13 +4,13 @@ let teks = 'donasi'
 let dana = global.dana
 let pulsa = global.pulsa
 let gopay = global.gopay
+let saweria = global.saweria
 let numberowner = global.numberowner
 let anu = `Hai Kakk👋
 Kalian bisa mendukung hanaa agar bot ini tetap up to date dengan:
-╔═══〔 Donasi • Emoney 〕══➣
-╠🍭╠➥ Dana : ${dana}
-╠🍭╠➥ Pulsa : ${pulsa}
-╚════════════➣
+┏━━━〔 Donasi • Emoney 〕━━☸
+┣➵͜͡☯ Saweria : ${saweria}
+┗━━━━━━━━━━━━☸
 Berapapun donasi kalian akan sangat berarti 👍
 
 Arigatou!

@@ -11,11 +11,13 @@ let ye = `@${m.sender.split`@`[0]}`
 let esce = `
 Hai ${ye} Lagi Nyari Sc Ya? 
 
-Nih Link Sc Nya Zeeone :
+Nih Link Sc Nya Hyzer :
 https://youtu.be/AXPzjQ5jxx8
 
 Atau Mau Pake Sc Hana? :
 https://github.com/HanaaCanss/HanaaCanss
+
+Sc Hana Basih Banyak Bug Hehe
 
 _*Jangan Lupa Follow Dan Di Subscribe*_`
 conn.sendBut(m.chat, esce, wm3, 'Thanks', 'thanks', m) 
