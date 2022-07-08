@@ -746,28 +746,28 @@ Untuk mematikan fitur ini, ketik
 
 global.dfail = (type, m, conn) => {
     let msg = {
-        rowner: `┏━֍〔 ıll 𝐀𝐂𝐂𝐄𝐒𝐒 𝐃𝐄𝐍𝐈𝐄𝐃 llı 〕━☸
+        rowner: `┏━֍〔 ıll 𝐀𝐂𝐂𝐄𝐒𝐒 𝐃𝐄𝐍𝐈𝐄𝐃 llı 〕━֍
 ⫹⫺ Perintah ini hanya untuk developer bot
 ┗━━━━━━━━━━━━━━━━━֍`,
-    owner: `┏━֍〔 ıll 𝐀𝐂𝐂𝐄𝐒𝐒 𝐃𝐄𝐍𝐈𝐄𝐃 llı 〕━☸
+    owner: `┏━֍〔 ıll 𝐀𝐂𝐂𝐄𝐒𝐒 𝐃𝐄𝐍𝐈𝐄𝐃 llı 〕━֍
 ⫹⫺ Perintah ini hanya untuk owner bot
 ┗━━━━━━━━━━━━━━━━━֍`,
-    mods: `┏━֍〔 ıll 𝐀𝐂𝐂𝐄𝐒𝐒 𝐃𝐄𝐍𝐈𝐄𝐃 llı 〕━☸
+    mods: `┏━֍〔 ıll 𝐀𝐂𝐂𝐄𝐒𝐒 𝐃𝐄𝐍𝐈𝐄𝐃 llı 〕━֍
 ⫹⫺ Perintah ini hanya untuk moderator bot
 ┗━━━━━━━━━━━━━━━━━֍`,
-    premium: `┏━֍〔 ıll 𝐏𝐑𝐄𝐌𝐈𝐔𝐌 𝐎𝐍𝐋𝐘 llı 〕━☸
+    premium: `┏━֍〔 ıll 𝐏𝐑𝐄𝐌𝐈𝐔𝐌 𝐎𝐍𝐋𝐘 llı 〕━֍
 ⫹⫺ Fitur ini hanya tersedia untuk user *Premium*
 ┗━━━━━━━━━━━━━━━━━֍`,
-    group: `┏━֍〔 ıll 𝐆𝐑𝐎𝐔𝐏 𝐎𝐍𝐋𝐘 llı 〕━☸
+    group: `┏━֍〔 ıll 𝐆𝐑𝐎𝐔𝐏 𝐎𝐍𝐋𝐘 llı 〕━֍
 ⬡ Fitur ini hanya dapat digunakan didalam grup!!
 ┗━━━━━━━━━━━━━━━━━֍`,
-    private: `┏━֍〔 ıll 𝐏𝐑𝐈𝐕𝐀𝐓𝐄 𝐂𝐇𝐀𝐓 𝐎𝐍𝐋𝐘 llı 〕━☸
+    private: `┏━֍〔 ıll 𝐏𝐑𝐈𝐕𝐀𝐓𝐄 𝐂𝐇𝐀𝐓 𝐎𝐍𝐋𝐘 llı 〕━֍
 ⫹⫺ Fitur ini hanya dapat digunakan diprivate chat
 ┗━━━━━━━━━━━━━━━━━֍`,
-    admin: `┏━֍〔 ıll 𝐀𝐂𝐂𝐄𝐒𝐒 𝐃𝐄𝐍𝐈𝐄𝐃 llı 〕━☸
+    admin: `┏━֍〔 ıll 𝐀𝐂𝐂𝐄𝐒𝐒 𝐃𝐄𝐍𝐈𝐄𝐃 llı 〕━֍
 ⫹⫺ Fitur ini hanya tersedia untuk admin grup!!
 ┗━━━━━━━━━━━━━━━━━֍`,
-    botAdmin: `┏━֍〔 ıll 𝐀𝐂𝐂𝐄𝐒𝐒 𝐃𝐄𝐍𝐈𝐄𝐃 llı 〕━☸
+    botAdmin: `┏━֍〔 ıll 𝐀𝐂𝐂𝐄𝐒𝐒 𝐃𝐄𝐍𝐈𝐄𝐃 llı 〕━֍
 ⫹⫺ Fitur ini tidak dapat work, bot tidak menjadi admin
 ┗━━━━━━━━━━━━━━━━֍`,
     restrict: 'Fitur ini di *disable*!',
@@ -775,15 +775,15 @@ global.dfail = (type, m, conn) => {
   if (msg) return conn.sendBut(m.chat, msg, '❑ Silahkan klik menu dibawah ini', '⋮☰ Menu', '.menu', m)
         let unreg = {
   unreg: `
-┏━━━〔 ıll 𝐑𝐄𝐆𝐈𝐒𝐓𝐄𝐑 llı 〕━━☸
+┏━━━〔 ıll 𝐑𝐄𝐆𝐈𝐒𝐓𝐄𝐑 llı 〕━━֍
 ⬡ Hallo mypren👋, @${m.sender.split`@`[0]}
 ⬡ Sebelum melihat fitur bot, lebih baik register dulu
 ⬡ Kalau tidak kelihatan button nya, contohnya dibawah!
-┗━━━━━━━━━━━━━━━━━━☸
-┏━━〔 ıll CONTOH llı 〕━☸
+┗━━━━━━━━━━━━━━━━━━֍
+┏━━〔 ıll CONTOH llı 〕━֍
 ⬡ #daftar namamu.umurmu
 ⬡ #daftar @${m.sender.split`@`[0]}.18
-┗━━━━━━━━━━☸ `
+┗━━━━━━━━━━֍ `
   }[type]
  if (unreg) return conn.sendBut(m.chat, unreg, '❑ Silahkan Klik reg dibawah ini ❑', 'Register', `.daftar @${m.sender.split`@`[0]}.18`, m)
  }
