@@ -1,16 +1,16 @@
 //CASE BUATAN HANAA JANGAN DIHAPUS YAH KAKK CAPE TAUU BUATNYAA :')
 let fetch = require('node-fetch')
 let handler = async (m, { conn }) => {
-	let url = cosplay[Math.floor(Math.random() * cosplay.length)]
-	conn.sendButtonImg(m.chat, url, 'Nihh Kakk🍬', wm2, 'Next', '.cosplay', m)
+	let url = randomcosplay[Math.floor(Math.random() * randomcosplay.length)]
+	conn.sendButtonImg(m.chat, url, 'Nihh Kakk🍬', wm2, 'Next', '.randomcosplay', m)
 }
-handler.help = ['cosplay']
+handler.help = ['randomcosplay']
 handler.tags = ['anime']
-handler.command = /^(cosplay)$/i
+handler.command = /^(randomcosplay)$/i
 
 module.exports = handler
 
-global.cosplay = [
+global.randomcosplay = [
 "https://i.ibb.co/WD3ZK2K/main-qimg-4bce93181d6bc8e544036cda41e70291-lq.jpg",
 "https://i.ibb.co/NZ6Lfyd/6a60fcb180b9b7f18e23724c66f043b6.jpg",
 "https://i.ibb.co/JjvM45P/animesher-com-tenten-ino-cosplayers-cute-cosplay-girls-best-anime-cosplay-1176896.jpg",
