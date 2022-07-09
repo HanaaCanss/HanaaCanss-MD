@@ -43,17 +43,17 @@ WhatsApp Bot Multi Device
 | **IMAGEMAGICK** | [HERE](https://github.com/mcollina/heroku-buildpack-imagemagick.git) |
 | **Node.js**     | heroku/nodejs|
 
+# Recoders Bot
+[![Hanaa](https://github.com/HanaaCanss.png?size=200)](https://github.com/HanaaCanss) | [![Justyn](https://github.com/ItzMeJustyn.png?size=200)](https://github.com/ItzMeJustyn)
+|----|
+[Hanaa](https://github.com/HanaaCanss) | [Justyn](https://github.com/ItzMeJustyn)
+ Recoders | Partner
+
 # Creator Bot
  [![Ilman](https://github.com/ilmanhdyt.png?size=200)](https://github.com/ilmanhdyt) | [![Hyzer](https://github.com/Hyzerr.png?size=200)](https://github.com/Hyzerr) 
 ----|----
 [Ilman](https://github.com/ilmanhdyt) | [Hyzer](https://github.com/Hyzerr)
  Author | Creator
-
-# Recoders Bot
-[![Hanaa](https://github.com/HanaaCanss.png?size=200)](https://github.com/HanaaCanss)
-|----|
-[Hanaa](https://github.com/HanaaCanss)
- Recoders
  
 ### Hyzer Statistics
 
