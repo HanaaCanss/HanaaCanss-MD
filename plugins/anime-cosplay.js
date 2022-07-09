@@ -29,7 +29,7 @@ global.cosplay = [
 "https://i.ibb.co/Q87p21y/58064-56582-4627.jpg",
 "https://i.ibb.co/SR9xrqc/9eb7b9b8d3b7fbaa0b6030de4159e425.jpg",
 "https://i.ibb.co/cDKyJSc/Dinb-XAa-U8-AAo7-Db.jpg",
-"https://i.ibb.co/Y832qKP/d2d26333a1e3dc6d6c616a5b3d8fd105.jpg"
+"https://i.ibb.co/Y832qKP/d2d26333a1e3dc6d6c616a5b3d8fd105.jpg",
 "https://i.ibb.co/0BxmfLp/15d120fd8d65d19a50266981d6e0978a.jpg",
 "https://i.ibb.co/myvn4Z6/e8282c7fac9f6548a7429695af1b0c61.jpg",
 "https://i.ibb.co/LvtZT81/9fcac149fe0965cdc158888ffbf8350b.jpg",
