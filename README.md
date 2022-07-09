@@ -45,7 +45,7 @@ WhatsApp Bot Multi Device
 
 # Recoders Bot
 [![Hanaa](https://github.com/HanaaCanss.png?size=200)](https://github.com/HanaaCanss) | [![Justyn](https://github.com/ItzMeJustyn.png?size=200)](https://github.com/ItzMeJustyn)
-|----|
+----|----
 [Hanaa](https://github.com/HanaaCanss) | [Justyn](https://github.com/ItzMeJustyn)
  Recoders | Partner
 
