@@ -7,7 +7,7 @@ let handler = async (m, { conn }) => {
     let thumbnail = fs.readFileSync('./media/bank.jpg')
     let user = global.db.data.users[who]
 let anu = `
-╔════【 ıll *${namebot}* llı 】═══֍
+*YOUR INFORMATION*
 🏦 Bank *${user.name}*
 ⭐ Role : *${user.role}*\n\n
 *${user.exp}* Exp ✨

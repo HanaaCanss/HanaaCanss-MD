@@ -17,6 +17,9 @@ https://youtu.be/AXPzjQ5jxx8
 Atau Mau Pake Sc Hana? :
 https://github.com/HanaaCanss/HanaaCanss
 
+Atauu Sc Justyn? :
+https://github.com/ItzMeJustyn/JustynBotzz-MD
+
 Sc Hana Basih Banyak Bug Hehe
 
 _*Jangan Lupa Follow Dan Di Subscribe*_`

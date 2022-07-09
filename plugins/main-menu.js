@@ -41,15 +41,15 @@ const defaultMenu = {
 ┗━━━━━━━━━━━━━━━━━━֍
 %readmore`.trimStart(), 
   header: '┏━ 【  %category  】 ',
-  body: '┣☰➵͜͡✦ %cmd %islimit %isPremium',
+  body: '┣☰➵͜͡❁➤ %cmd %islimit %isPremium',
   footer: '┗━━━━\n', 
   after: `
 ┏━━【 ıll *THANKS TO* llı 】━֍
-┣➵͜͡❁ Allah SWT
-┣➵͜͡❁ HanaaCanss
-┣➵͜͡❁ Nurutomo
-┣➵͜͡❁ Elyas
-┣➵͜͡❁ Hyzer
+┣➵͜͡➤ Allah SWT
+┣➵͜͡➤ HanaaCanss
+┣➵͜͡➤ Nurutomo
+┣➵͜͡➤ Elyas
+┣➵͜͡➤ Hyzer
 ┗━━━━━━━━━━━━━━֍
 `,
 }
@@ -58,11 +58,11 @@ const defaultMenu = {
 let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
   let tags
   let teks = `${args[0]}`.toLowerCase()
-  let arrayMenu = ['all', 'absen', 'rpg', 'anime', 'downloader', 'game', 'fun', 'xp', 'github', 'group', 'image', 'quotes', 'admin', 'info', 'internet', 'islam', 'kerang', 'maker', 'owner', 'suara', 'premium', 'quotes', 'info', 'stalk', 'shortlink', 'sticker', 'tools', 'text', 'nsfw', 'asupan', 'random', 'textpro', 'photooxy','cecan']
+  let arrayMenu = ['all', 'absen', 'rpg', 'anime', 'cecan','downloader', 'game', 'fun', 'xp', 'github', 'group', 'image', 'quotes', 'admin', 'info', 'internet', 'islam', 'kerang', 'maker', 'owner', 'suara', 'premium', 'quotes', 'info', 'stalk', 'shortlink', 'sticker', 'tools', 'text', 'nsfw', 'asupan', 'random', 'textpro', 'photooxy']
   if (!arrayMenu.includes(teks)) teks = '404'
   if (teks == 'all') tags = {
-  'main': '☰ MENU UTAMA ☰',
-  'advanced': '⫹⫺ ADVANCED⋮☰',
+  'main': '🏫 MENU UTAMA 🏫',
+  'advanced': '🥑 ADVANCED 🥑',
   'absen': '📝 MENU ABSEN 📝',
   'anime': '🍭 MENU ANIME 🍭',
   'sticker': '🖨️ MENU CONVERT 🖨️',
@@ -312,7 +312,7 @@ let menuu = `┏━━━━【 ıll *${namebot}* llı 】━━━֍
 ┣➵͜͡❁ Premium : ${global.prem ? 'Yes' : 'No'}
 ┗━━━━━━֍
 ┏━━━━【 ıll *INFORMASI* llı 】━━━֍
-┣⫹⫺ Hanaa bot masih dalam perkembangan
+┣⫹⫺ Bot Ini Masih dalam pengembangan
 ┣⫹⫺ Kalau menemukan bug / eror harap
 ┣⫹⫺ Lapor Ke Owner
 ┗━━━━━━━━━━━━━━֍`
@@ -322,7 +322,7 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
             description: menuu,
             buttonText: 'KLIK DISINI',
             listType: 1,
-            footerText: "⫹⫺ 𝚂𝙸𝙻𝙰𝙷𝙺𝙰𝙽 𝙿𝙸𝙻𝙸𝙷 𝙼𝙴𝙽𝚄 𝙳𝙸 𝙱𝙰𝚆𝙰𝙷",
+            footerText: "📮𝚂𝙸𝙻𝙰𝙷𝙺𝙰𝙽 𝙿𝙸𝙻𝙸𝙷 𝙼𝙴𝙽𝚄 𝙳𝙸 𝙱𝙰𝚆𝙰𝙷",
             mtype: 'listMessage',
             sections: [
               {
@@ -331,9 +331,13 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
                   "description": "Nomor Pemilik Bot Chat P/Meminta Save Tidak Akan Di Respon",
                   "rowId": `.owner`
                 },{
+                  "title": `⋮☰【☕】UPGRADE & SUPPORT`,
+                  "description": "Upgrade & Support Hana Kakk☕",
+                  "rowId": `.upgrade`
+                },{
                   "title": `⋮☰【💳】SEWA BOT`,
                   "description": "Sewa Untuk Grup Kakk",
-                  "rowId": `.sewazifa`
+                  "rowId": `.sewa`
                 },{
                   "title": "⋮☰【❗】INFO BOT",
                   "description": "Menampilkan Menu Info",

@@ -5,18 +5,18 @@ let handler = async (m) => {
     else who = m.sender
     let user = global.db.data.users[who]
     let toos = fs.readFileSync('./media/bank.jpg')
-    let anu =`╔═══֍ 「 BALANCE 」 ֍════
-╠➵͜͡⫹⫺➥ 📇 *Name*: ${user.name}
-╠➵͜͡⫹⫺➥ 🆔 *Nomor* : ${require('awesome-phonenumber')(`+${m.sender.split('@')[0]}`).getNumber('international')}
-╠➵͜͡⫹⫺➥ 🎨 *Age* : ${user.registered ? '' + user.age : ''}
-╠➵͜͡⫹⫺➥ 🎫 *Limit*: ${user.limit}
-╠➵͜͡⫹⫺➥ 💹 *Money*: ${user.money}
-╠➵͜͡⫹⫺➥ 📍 *Role*: ${user.role}
-╠➵͜͡⫹⫺➥ 💳 *Bank* : ${user.atm}
-╠➵͜͡⫹⫺➥ 🎟 ️ *Limit Game* : ${user.glimit}
-╠➵͜͡⫹⫺➥ 📊 *Level*: ${user.level}
-╠➵͜͡⫹⫺➥ ✨ *Exp*: ${user.exp}
-╚══════════════֍
+    let anu =`┏━━━֍ 「 BALANCE 」 ֍━━━━
+┣➵͜͡➤ 📇 *Name*: ${user.name}
+┣➵͜͡➤ 🆔 *Nomor* : ${require('awesome-phonenumber')(`+${m.sender.split('@')[0]}`).getNumber('international')}
+┣➵͜͡➤ 🎨 *Age* : ${user.registered ? '' + user.age : ''}
+┣➵͜͡➤ 🎫 *Limit*: ${user.limit}
+┣➵͜͡➤ 💹 *Money*: ${user.money}
+┣➵͜͡➤ 📍 *Role*: ${user.role}
+┣➵͜͡➤ 💳 *Bank* : ${user.atm}
+┣➵͜͡➤ 🎟 ️ *Limit Game* : ${user.glimit}
+┣➵͜͡➤ 📊 *Level*: ${user.level}
+┣➵͜͡➤ ✨ *Exp*: ${user.exp}
+┗━━━━━━━━━━━━━━━━━━֍
 `
     conn.sendButtonImg(m.chat, toos, anu, wm2, 'Inventory 🐦', '.inv', m) 
 }

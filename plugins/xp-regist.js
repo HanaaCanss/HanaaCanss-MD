@@ -19,21 +19,22 @@ let handler = async function (m, { text, usedPrefix }) {
   user.serial = sn
   
   m.reply(`
-╭─❒ 〔 DAFTAR BERHASIL 〕
+╭━❒ 〔 DAFTAR BERHASIL 〕
 ❍ Terimakasih anda sudah terdaftar
 ❍ Di database kami
 ❍ Jika anda menemukan bug atau error
 ❍ Maaf bot ini masih dalam  tahap pengembangan
-╭─────────────────╮
-├❏ Nama : ${name}
-├❏ Umur : ${age} tahun
-├❏ SN: ${sn}
-╰─────────────────╯
+┏━━━━━━━━━━━━━━━━━֎
+┣❏ Nama : ${name}
+┣❏ Umur : ${age} tahun
+┗━━━━━━━━━━━━━━━━━֎
+SN : ${sn}
+
 Gunakan Bot Secukupnya
 Dont Call/Vc Bot 
 `.trim())
-u = '╭─❒ 〔 HALLO NEW PREN 〕\n\n❍ Jika mau ke Pengaturan Bot Klik Tombol "Rules Bot"\n❍ Jika menuju menu Klik tombol "Tampilan Menu"\n❍ Jika mau cari owner Klik tombol "Owner"\n\nPatuhi Rules nya,demi kenyamanan kita bersama.'
-await conn.send3But(m.chat, u, wm, 'Rules', '#snk', 'Menu', '#menu', 'Owner', '#owner',  m)
+u = '╭━❒ 〔 HALLO KAKK 〕\n\n❍ Jika menuju menu Klik tombol "Tampilan Menu"\n❍ Jika mau cari owner Klik tombol "Owner"\n\nPatuhi Rules nya,demi kenyamanan kita bersama.'
+await conn.send3But(m.chat, u, wm, 'Menu', '#menu', 'Owner', '#owner',  m)
 }
 handler.help = ['daftar', 'reg', 'register'].map(v => v + ' <nama>.<umur>')
 handler.tags = ['exp']
