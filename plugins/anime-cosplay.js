@@ -1,16 +1,16 @@
 //CASE BUATAN HANAA JANGAN DIHAPUS YAH KAKK CAPE TAUU BUATNYAA :')
 let fetch = require('node-fetch')
 let handler = async (m, { conn }) => {
-	let url = cosplay[Math.floor(Math.random() * cosplay.length)]
-	conn.sendButtonImg(m.chat, url, 'Nihh Kakk🍬', wm2, 'Next', '.cosplay', m)
+	let url = randomcosplay[Math.floor(Math.random() * randomcosplay.length)]
+	conn.sendButtonImg(m.chat, url, 'Nihh Kakk🍬', wm2, 'Next', '.randomcosplay', m)
 }
-handler.help = ['cosplay']
+handler.help = ['randomcosplay']
 handler.tags = ['anime']
-handler.command = /^(cosplay)$/i
+handler.command = /^(randomcosplay)$/i
 
 module.exports = handler
 
-global.cosplay = [
+global.randomcosplay = [
 "https://i.ibb.co/WD3ZK2K/main-qimg-4bce93181d6bc8e544036cda41e70291-lq.jpg",
 "https://i.ibb.co/NZ6Lfyd/6a60fcb180b9b7f18e23724c66f043b6.jpg",
 "https://i.ibb.co/JjvM45P/animesher-com-tenten-ino-cosplayers-cute-cosplay-girls-best-anime-cosplay-1176896.jpg",
@@ -44,7 +44,6 @@ global.cosplay = [
 "https://i.ibb.co/47FM8bP/42736e56ddfe7c399a7bd45e04ee4f27.jpg",
 "https://i.ibb.co/27dYbZ5/3a3efc8f03eb6122b0e04841f4177c2c.jpg",
 "https://i.ibb.co/bFs7v2F/10c96a967c607b49f24d239bdb21d162.jpg",
-"https://i.ibb.co/bLCMRSF/Japanese-Teen-Girls-Swimsuit-Women-2021-Cute-Anime-Cosplay-Bikini-Costume-2-Pieces-Swimwear-Lolita-H.webp",
 "https://i.ibb.co/7RJwDzb/animesher-com-anna-cosplay-k-cosplay-cute-anime-girl-635889.jpg",
 "https://i.ibb.co/nj9ndmp/25bed47c9e4e198a6a577946559a93be.jpg",
 "https://i.ibb.co/1K6T6mj/a00e570f19b591a63a0b51a7f9b698b8.jpg",
@@ -57,4 +56,5 @@ global.cosplay = [
 "https://i.ibb.co/F4FgMpF/soul-land-xiaowu-cosplay-1639628587-112001ed.jpg",
 "https://i.ibb.co/VTXsZvT/30839424e3b601edc0f8dcf4b533a51e.jpg",
 "https://i.ibb.co/DDmX9RC/3794fe189d0b5193c39b5c1bc9df907d.jpg"
+
 ]
