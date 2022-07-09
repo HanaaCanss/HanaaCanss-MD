@@ -7,14 +7,14 @@ global.prems = []
 global.nameowner = 'HanaaCanss'
 global.numberowner = '6281270275470'
 global.instagram = 'NOT FOUND'
-global.github = 'PRIVATE'
+global.github = 'https://github.com/HanaaCanss'
 global.dana = '083187631714'
 global.pulsa = '083187631714'
 global.gopay = '083187631714'
 global.saweria = 'https://saweria.co/HanaaCanss'
 
 //=============『 Info Bot 』=================//
-global.namebot = 'HanaaaBotzz'
+global.namebot = '𝐇𝐚𝐧𝐚𝐚𝐁𝐨𝐭𝐳𝐳'
 global.gc = 'https://chat.whatsapp.com/Jzd9DEVB5nODtNBk1VCNrV'
 global.web = 'api.hanaacanss.ml' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
 global.price1 = '𝐍𝐈𝐇 𝐁𝐀𝐍𝐆 𝐋𝐈𝐒𝐓 𝐒𝐄𝐖𝐀𝐍𝐘𝐀\n\n》PERMANEN Rp 10.000\nMAKSIMAL 2 GRUP\n》PERMANEN  Rp 20.000\nMAKSIMAL 6 GRUP \n》1 BULAN Rp 5.000\nMAKSIMAL 1 GRUP'
@@ -25,12 +25,12 @@ global.lolkey = 'Papah-Chan' //biar mudah ngegantinya semisal apikeynya expired:
 global.zenzkey = '046ac30e04e4' //ganti jadi apikey lu kalau expired
 global.hanakey = 'HanaaBotz' //gaush diganti ganti!
 global.zeeone = 'LvtL8Vw2' //ganti pake apikey lu yah
-global.wm = ''
+global.wm = '©𝐇𝐚𝐧𝐚𝐚𝐁𝐨𝐭𝐳𝐳'
 global.watermark = wm
-global.wm2 = '            「 𝙷𝚊𝚗𝚊𝚊𝙲𝚊𝚗𝚜𝚜できる 」'
-global.wm3 = '⫹⫺ 𝙷𝚊𝚗𝚊𝚊𝙲𝚊𝚗𝚜𝚜できる'
-global.htki = '════════֍' 
-global.htka = '֍════════'
+global.wm2 = '©𝐇𝐚𝐧𝐚𝐚𝐁𝐨𝐭𝐳𝐳できる'
+global.wm3 = '⫹⫺ 𝐇𝐚𝐧𝐚𝐚𝐁𝐨𝐭𝐳𝐳できる'
+global.htki = '━━━━━━━━֍' 
+global.htka = '֍━━━━━━━━'
 global.media = 'https://telegra.ph/file/72168c6f1aaa90315c369.jpg'
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=smurfs-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
 global.wait = '_*Tunggu kakk*_'
@@ -38,8 +38,8 @@ global.eror = '_*Server Error*_'
 global.benar = 'Benar ✅\n'
 global.salah = 'Salah ❌\n'
 global.stiker_wait = 'Sebentarr Kakk🍭'
-global.packname = '2050'
-global.author = '©𝙷𝚊𝚗𝚊𝚊𝙲𝚊𝚗𝚜𝚜できる'
+global.packname = '2022'
+global.author = '©𝐇𝐚𝐧𝐚𝐚𝐁𝐨𝐭𝐳𝐳'
 
 //=============『 Apikey 』================== //
 global.APIs = { // API Prefix

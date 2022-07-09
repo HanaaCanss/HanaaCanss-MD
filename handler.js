@@ -747,28 +747,28 @@ Untuk mematikan fitur ini, ketik
 global.dfail = (type, m, conn) => {
     let msg = {
         rowner: `┏━֍〔 ıll 𝐀𝐂𝐂𝐄𝐒𝐒 𝐃𝐄𝐍𝐈𝐄𝐃 llı 〕━֍
-⫹⫺ Perintah ini hanya untuk developer bot
+⫹⫺ ❗hanya untuk developer bot
 ┗━━━━━━━━━━━━━━━━━֍`,
     owner: `┏━֍〔 ıll 𝐀𝐂𝐂𝐄𝐒𝐒 𝐃𝐄𝐍𝐈𝐄𝐃 llı 〕━֍
-⫹⫺ Perintah ini hanya untuk owner bot
+⫹⫺ ❗hanya untuk owner bot
 ┗━━━━━━━━━━━━━━━━━֍`,
     mods: `┏━֍〔 ıll 𝐀𝐂𝐂𝐄𝐒𝐒 𝐃𝐄𝐍𝐈𝐄𝐃 llı 〕━֍
-⫹⫺ Perintah ini hanya untuk moderator bot
+⫹⫺ ❗hanya untuk moderator bot
 ┗━━━━━━━━━━━━━━━━━֍`,
     premium: `┏━֍〔 ıll 𝐏𝐑𝐄𝐌𝐈𝐔𝐌 𝐎𝐍𝐋𝐘 llı 〕━֍
-⫹⫺ Fitur ini hanya tersedia untuk user *Premium*
+⫹⫺ ❗hanya tersedia untuk user *Premium*
 ┗━━━━━━━━━━━━━━━━━֍`,
     group: `┏━֍〔 ıll 𝐆𝐑𝐎𝐔𝐏 𝐎𝐍𝐋𝐘 llı 〕━֍
 ⬡ Fitur ini hanya dapat digunakan didalam grup!!
 ┗━━━━━━━━━━━━━━━━━֍`,
     private: `┏━֍〔 ıll 𝐏𝐑𝐈𝐕𝐀𝐓𝐄 𝐂𝐇𝐀𝐓 𝐎𝐍𝐋𝐘 llı 〕━֍
-⫹⫺ Fitur ini hanya dapat digunakan diprivate chat
+⫹⫺ ❗hanya dapat digunakan diprivate chat
 ┗━━━━━━━━━━━━━━━━━֍`,
     admin: `┏━֍〔 ıll 𝐀𝐂𝐂𝐄𝐒𝐒 𝐃𝐄𝐍𝐈𝐄𝐃 llı 〕━֍
-⫹⫺ Fitur ini hanya tersedia untuk admin grup!!
+⫹⫺ ❗hanya tersedia untuk admin grup!!
 ┗━━━━━━━━━━━━━━━━━֍`,
     botAdmin: `┏━֍〔 ıll 𝐀𝐂𝐂𝐄𝐒𝐒 𝐃𝐄𝐍𝐈𝐄𝐃 llı 〕━֍
-⫹⫺ Fitur ini tidak dapat work, bot tidak menjadi admin
+⫹⫺ ❗tidak dapat work, bot tidak menjadi admin
 ┗━━━━━━━━━━━━━━━━֍`,
     restrict: 'Fitur ini di *disable*!',
     }[type]
@@ -776,7 +776,7 @@ global.dfail = (type, m, conn) => {
         let unreg = {
   unreg: `
 ┏━━━〔 ıll 𝐑𝐄𝐆𝐈𝐒𝐓𝐄𝐑 llı 〕━━֍
-⬡ Hallo mypren👋, @${m.sender.split`@`[0]}
+⬡ Hallo kakk👋, @${m.sender.split`@`[0]}
 ⬡ Sebelum melihat fitur bot, lebih baik register dulu
 ⬡ Kalau tidak kelihatan button nya, contohnya dibawah!
 ┗━━━━━━━━━━━━━━━━━━֍
