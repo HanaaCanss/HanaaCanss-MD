@@ -7,6 +7,7 @@ let handler = async (m, { conn }) => {
 handler.help = ['masturbation']
 handler.tags = ['nsfw']
 handler.command = /^(masturbation)$/i
+handler.private = true
 
 module.exports = handler
 
