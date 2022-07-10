@@ -25,10 +25,10 @@ global.lolkey = 'Papah-Chan' //biar mudah ngegantinya semisal apikeynya expired:
 global.zenzkey = '046ac30e04e4' //ganti jadi apikey lu kalau expired
 global.hanakey = 'HanaaBotz' //gaush diganti ganti!
 global.zeeone = 'LvtL8Vw2' //ganti pake apikey lu yah
-global.wm = '©𝐇𝐚𝐧𝐚𝐚𝐁𝐨𝐭𝐳𝐳'
+global.wm = '© 𝗛 𝗮 𝗻 𝗮 𝗮 𝗖 𝗮 𝗻 𝘀 𝘀'
 global.watermark = wm
-global.wm2 = '©𝐇𝐚𝐧𝐚𝐚𝐁𝐨𝐭𝐳𝐳できる'
-global.wm3 = '⫹⫺ 𝐇𝐚𝐧𝐚𝐚𝐁𝐨𝐭𝐳𝐳できる'
+global.wm2 = '© 𝗛 𝗮 𝗻 𝗮 𝗮 𝗖 𝗮 𝗻 𝘀 𝘀'
+global.wm3 = '⫹⫺ 𝗛 𝗮 𝗻 𝗮 𝗮 𝗖 𝗮 𝗻 𝘀'
 global.htki = '━━━━━━━━֍' 
 global.htka = '֍━━━━━━━━'
 global.media = 'https://telegra.ph/file/72168c6f1aaa90315c369.jpg'
@@ -39,7 +39,7 @@ global.benar = 'Benar ✅\n'
 global.salah = 'Salah ❌\n'
 global.stiker_wait = 'Sebentarr Kakk🍭'
 global.packname = '2022'
-global.author = '©𝐇𝐚𝐧𝐚𝐚𝐁𝐨𝐭𝐳𝐳'
+global.author = '©𝗛𝗮𝗻𝗮𝗮𝗖𝗮𝗻𝘀𝘀'
 
 //=============『 Apikey 』================== //
 global.APIs = { // API Prefix
