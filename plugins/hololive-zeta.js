@@ -2,7 +2,7 @@
 let fetch = require('node-fetch')
 let handler = async (m, { conn }) => {
 	let url = zeta[Math.floor(Math.random() * zeta.length)]
-	conn.sendButtonImg(m.chat, url, 'Nihhh Kakk🍭', wm2, 'Next', '.zeta', m)
+	conn.sendButtonImg(m.chat, url, 'Coming soon.', wm2, 'Next', '.zeta', m)
 }
 handler.help = ['zeta']
 handler.tags = ['hololive']

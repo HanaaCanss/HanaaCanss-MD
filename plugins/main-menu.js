@@ -70,7 +70,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
   'downloader': '📁 MENU DOWNLOADER 📁',
   'xp': '🎀 MENU EXP 🎀',
   'fun': '😁 MENU FUN 😁',
-  'hololive': '😈 HOLOLIVE PIC 😈'
+  'hololive': '😈 HOLOLIVE PIC 😈',
   'game': '🎱 MENU GAME 🎱',
   'github': '🛸 MENU GITHUB 🛸',
   'group': '💬 MENU GROUP 💬',
