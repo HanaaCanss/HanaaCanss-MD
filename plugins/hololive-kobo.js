@@ -16,5 +16,5 @@ Kobo
 "https://i.postimg.cc/bYt1C4ZM/Kobo-Kanaeru-full-3615737.jpg",
 "https://i.postimg.cc/28dhmvF7/Kobo-Kanaeru-full-3615738.png",
 "https://i.postimg.cc/2S2WLDtq/Kobo-Kanaeru-full-3615740.jpg",
-"https://i.postimg.cc/PxBYfQR2/Kobo-Kanaeru-full-3615741.jpg",
+"https://i.postimg.cc/PxBYfQR2/Kobo-Kanaeru-full-3615741.jpg"
 ]
