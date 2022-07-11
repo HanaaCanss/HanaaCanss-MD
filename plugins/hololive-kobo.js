@@ -11,7 +11,6 @@ handler.command = /^(kobo)$/i
 module.exports = handler
 
 global.kobo = [
-Kobo
 "https://i.postimg.cc/BvSXgK2M/Kobo-Kanaeru-full-3615742.jpg",
 "https://i.postimg.cc/bYt1C4ZM/Kobo-Kanaeru-full-3615737.jpg",
 "https://i.postimg.cc/28dhmvF7/Kobo-Kanaeru-full-3615738.png",
