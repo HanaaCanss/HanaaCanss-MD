@@ -11,7 +11,7 @@ handler.command = /^(moona)$/i
 module.exports = handler
 
 global.moona = [
-"https://i.postimg.cc/BvSXgK2M/Kobo-Kanaeru-full-3615742.jpg",",
+"https://i.postimg.cc/BvSXgK2M/Kobo-Kanaeru-full-3615742.jpg",
 "https://i.postimg.cc/FF8k41QH/Moona-Hoshinova-full-2909987.jpg",
 "https://i.postimg.cc/xTmJTY0y/Moona-Hoshinova-full-2988559.png",
 "https://i.postimg.cc/K8yK1VjX/Moona-Hoshinova-full-2993118.jpg",
