@@ -5,7 +5,7 @@ let handler = async (m, { conn }) => {
 	conn.sendButtonImg(m.chat, url, 'Nihhh Kakk🍭', wm2, 'Next', '.iofi', m)
 }
 handler.help = ['iofi']
-handler.tags = ['anime']
+handler.tags = ['hololive']
 handler.command = /^(iofi)$/i
 
 module.exports = handler
