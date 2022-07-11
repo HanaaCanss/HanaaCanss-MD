@@ -58,10 +58,11 @@ const defaultMenu = {
 let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
   let tags
   let teks = `${args[0]}`.toLowerCase()
-  let arrayMenu = ['all', 'absen', 'rpg', 'anime', 'cecan','downloader', 'game', 'fun', 'xp', 'github', 'group', 'image', 'quotes', 'admin', 'info', 'internet', 'islam', 'kerang', 'maker', 'owner', 'suara', 'premium', 'quotes', 'info', 'stalk', 'shortlink', 'sticker', 'tools', 'text', 'nsfw', 'asupan', 'random', 'textpro', 'photooxy']
+  let arrayMenu = ['all', 'absen', 'anonimous', 'rpg', 'anime', 'cecan','downloader', 'game', 'hololive', 'fun', 'xp', 'github', 'group', 'image', 'quotes', 'admin', 'info', 'internet', 'islam', 'kerang', 'maker', 'owner', 'suara', 'premium', 'quotes', 'info', 'stalk', 'shortlink', 'sticker', 'tools', 'text', 'nsfw', 'asupan', 'random', 'textpro', 'photooxy']
   if (!arrayMenu.includes(teks)) teks = '404'
   if (teks == 'all') tags = {
   'main': '🏫 MENU UTAMA 🏫',
+  'anonimous': '🎭 ANONIMOUS CHAT 🎭',
   'advanced': '🥑 ADVANCED 🥑',
   'absen': '📝 MENU ABSEN 📝',
   'anime': '🍭 MENU ANIME 🍭',
@@ -69,6 +70,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
   'downloader': '📁 MENU DOWNLOADER 📁',
   'xp': '🎀 MENU EXP 🎀',
   'fun': '😁 MENU FUN 😁',
+  'hololive': '😈 HOLOLIVE PIC 😈'
   'game': '🎱 MENU GAME 🎱',
   'github': '🛸 MENU GITHUB 🛸',
   'group': '💬 MENU GROUP 💬',
@@ -101,6 +103,9 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
   if (teks == 'anime') tags = {
   'anime': 'MENU ANIME',
   }
+  if (teks == 'anonimous') tags = {
+  'anonimous': 'ANONIMOUS CHAT',
+  }
   if (teks == 'sticker') tags = {
   'sticker': 'MENU CONVERT',
   }
@@ -121,6 +126,9 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
   }
   if (teks == 'group') tags = {
   'group': 'MENU GROUP',
+  }
+  if (teks == 'hololive') tags = {
+  'hololive': 'HOLOLIVE PICTURE',
   }
   if (teks == 'image') tags = {
   'image': 'MENU IMAGE',
@@ -328,7 +336,7 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
               {
                 "rows": [{
                   "title": `⋮☰【👨】OWNER BOT`,
-                  "description": "Nomor Pemilik Bot Chat P/Meminta Save Tidak Akan Di Respon",
+                  "description": "Nomor Hanaa Chat P / Minta Save Tidak Akan Di Balas",
                   "rowId": `.owner`
                 },{
                   "title": `⋮☰【☕】UPGRADE & SUPPORT`,
@@ -337,7 +345,7 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
                 },{
                   "title": `⋮☰【💳】SEWA BOT`,
                   "description": "Sewa Untuk Grup Kakk",
-                  "rowId": `.sewahana`
+                  "rowId": `.sewa`
                 },{
                   "title": "⋮☰【❗】INFO BOT",
                   "description": "Menampilkan Menu Info",
@@ -353,6 +361,10 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
                   "title": "⋮☰【📝】ABSEN & VOTING",
                   "description": "Menampilkan Menu Absen",
                   "rowId": `${_p}? absen`
+                }, {
+              	"title": "⋮☰【🎭】ANONIMOUS CHAT",
+                  "description": "Menampilkan Menu Anonimous Beta Test!",
+                  "rowId": `${_p}? anonimous`
                 }, {
                   "title": "⋮☰【⛩️】ANIME",
                   "description": "Menampilkan Menu Anime",
@@ -389,6 +401,10 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
                   "title": "⋮☰【🏢】GROUP ",
                   "description": "Menampilkan Menu Group",
                   "rowId": `${_p}? group`
+                }, {
+                 "title": "⋮☰【😈】HOLOLIVE PICT",
+                  "description": "Menampilkan Menu Hololive NEW!",
+                  "rowId": `${_p}? hololive`
                 }, {
                   "title": "⋮☰【🖼】IMAGE ",
                   "description": "Menampilkan Menu Image",
