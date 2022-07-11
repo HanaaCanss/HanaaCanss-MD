@@ -8,9 +8,9 @@ let saweria = global.saweria
 let numberowner = global.numberowner
 let anu = `Hai Kakk👋
 Kalian bisa mendukung hanaa agar bot ini tetap up to date dengan:
-┏━━━〔 Donasi • Emoney 〕━━֍
-┣➵͜͡✦ Saweria : ${saweria}
-┗━━━━━━━━━━━━֍
+〔 Donasi • Emoney 〕
+Saweria : ${saweria}
+
 Berapapun donasi kalian akan sangat berarti 👍
 
 Arigatou!
@@ -18,8 +18,8 @@ Arigatou!
 Contact person Owner:
 wa.me/${numberowner} (Owner)
 
-*donasi via follow ig juga boleh*`
-  conn.sendButtonImg(m.chat, fla + teks, anu, instagram, 'Back', '.help', m) 
+*Makasih Yang Udah Mau Donate*`
+  conn.sendButtonImg(m.chat, fla + teks, anu, wm, 'Back', '.help', m) 
 }
 handler.help = ['donasi', 'donate']
 handler.tags = ['xp', 'info']
