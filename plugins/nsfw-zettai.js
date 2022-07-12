@@ -7,7 +7,7 @@ let handler = async (m, { conn }) => {
 handler.help = ['zettai']
 handler.tags = ['nsfw']
 handler.command = /^(zettai)$/i
-handler.private = true
+handler.premium = true
 
 module.exports = handler
 
