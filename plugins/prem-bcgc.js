@@ -11,11 +11,11 @@ let handler = async (m, { conn, isROwner, text }) => {
     await delay(500)
     conn.send2ButtonImg(i, iklan, `${pesan}`,wm2, 'Menu', '.menu', 'OWNER', '.owner', null).catch(_ => _)
     }
-  m.reply(`Sukses Mengirim Broadcast Prem Ke ${anu.length} Group`)
+  m.reply(`Sukses Mengirim Advertise Ke ${anu.length} Group`)
 }
-handler.help = ['bcgcprem <teks>']
-handler.tags = ['premium']
-handler.command = /^((broadcastgc|bcgc)prem)$/i
+handler.help = ['iklan <teks>']
+handler.tags = ['owner']
+handler.command = /^((iklan|advertise)$/i
 
 handler.premium = false
 handler.limit = true
