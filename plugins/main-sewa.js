@@ -10,12 +10,12 @@ let anu = `Hallo kakk 👋
 
 〔 ıll *HARGA* llı 〕
 ⬡ *PERMANENT 1 grup:* 5.000
-⬡ *PERMANEN 2 grup:* 7.000
-⬡ *PERMANEN 3-6 grup:* 10.000
+⬡ *PERMANENT 2-4 grup:* 10.000
+⬡ *PERMANENT + PREM AKUN : 15.000
 
 〔 ıll *PAYMENT* llı 〕
-⬡ *QRIS:* Klik Tombol Payment Di Bawah
-⬡ *PULSA:* ${pulsa}
+⬡ *QRIS:* +1k Klik Tombol Payment Di Bawah
+⬡ *PULSA:* ${pulsa} +5k
 
 Support All Payment
 
