@@ -13,7 +13,7 @@ CFonts.say('HANAABOTZ', {
   colors: ['blueBright','yellowBright'],                                        font: 'block',
   align: 'center',
 })
-CFonts.say(`BY HYZER OFFICIAL`, {                                            
+CFonts.say(`RECODE BY HANAA`, {                                            
 colors: ['yellow'],                                                           
 font: 'console',                                                              align: 'center',
 })
