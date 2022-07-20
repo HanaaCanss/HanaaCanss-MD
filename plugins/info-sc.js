@@ -15,10 +15,7 @@ Nih Link Sc Nya Hyzer :
 https://youtu.be/AXPzjQ5jxx8
 
 Atau Mau Pake Sc Hana? :
-https://github.com/HanaaCanss/HanaaCanss
-
-Atauu Sc Justyn? :
-https://github.com/ItzMeJustyn/JustynBotzz-MD
+https://github.com/HanaaCanss/Hanaa-Md-V1
 
 Sc Hana Basih Banyak Bug Hehe
 
