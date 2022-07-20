@@ -2,7 +2,7 @@ const hxz = require("hxz-api")
 let handler = async(m,{text, conn}) => {
 
 m.reply(wait)
-let p = await  hxz.ttdownloader(text)
+let p = await  hx.ttdownloader(text)
 const { nowm, wm, audio } = p
 conn.sendFile(m.chat, nowm, null, '*DONE✅*', m)
 }
