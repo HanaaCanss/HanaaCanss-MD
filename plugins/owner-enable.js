@@ -6,6 +6,7 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
   let type = (args[0] || '').toLowerCase()
   let isAll = false
   let isUser = false
+  let foto = 'https://telegra.ph/file/43c482cb9d31c2ab0b546.png'
   switch (type) {
     case 'w':
     case 'welcome':
@@ -127,20 +128,22 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
       break
     default:
       if (!/[01]/.test(command)) throw `
-┌〔 Daftar Opsi 〕${isOwner ? '\n├ antispam\n├ antitroli\n├ autoread\n├ backup\n├ grouponly\n├ jadibot\n├ nsfw\n├ public\n├ antilink\n├ mycontact' : ''}
-├ autolevelup
-├ antilink
-├ welcome
-└────
-contoh:
+┏━━【 ıll *ALL OPTIONS* llı 】━֍${isOwner ? '\n┣➵͜͡❁ antispam\n┣➵͜͡❁ antitroli\n┣➵͜͡❁ autoread\n┣➵͜͡❁ backup\n┣➵͜͡❁ grouponly\n┣➵͜͡❁ jadibot\n┣➵͜͡❁ nsfw\n┣➵͜͡❁ public\n┣➵͜͡❁ antilink\n┣➵͜͡❁ mycontact' : ''}
+┣➵͜͡❁ autolevelup
+┣➵͜͡❁ antilink
+┣➵͜͡❁ welcome
+┗━━━━━━━━━━━━━━━━━━━━֍
+*CONTOH PENGGUNAAN :*
 ${usedPrefix}on welcome
 ${usedPrefix}off welcome
 `.trim()
       throw false
   }
-  m.reply(`
-*${type}* berhasil di *${isEnable ? 'nyala' : 'mati'}kan* ${isAll ? 'untuk bot ini' : isUser ? '' : 'untuk chat ini'}
-`.trim())
+  conn.sendButtonImg(m.chat, foto, `*${htki} OPTIONS ${htka}*
+🗂️ *Type:* ${type} 
+🎚️ *Status:* ${isEnable ? 'Nyala' : 'Mati'}
+📣 *Untuk:* ${isAll ? 'Bot Ini' : isUser ? '' : 'Chat Ini'}
+`,wm, 'Back', '.menu', m)
 }
 handler.help = ['on', 'off'].map(v => v + ' <opsi>')
 handler.tags = ['group', 'owner']
