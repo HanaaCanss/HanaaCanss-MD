@@ -1,7 +1,6 @@
 let os = require('os')
 let util = require('util')
 let { performance } = require('perf_hooks')
-let wm2 = global.wm2
 let { sizeFormatter } = require('human-readable')
 let format = sizeFormatter({
   std: 'JEDEC', // 'SI' (default) | 'IEC' | 'JEDEC'
@@ -50,7 +49,7 @@ Pengguna : ${Object.keys(global.db.data.users).length} Pengguna
 Chat Banned : ${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length} Chat Terbanned
 User Banned : ${Object.entries(global.db.data.users).filter(user => user[1].banned).length} Pengguna Terbanned
 
-💻 *SERVER INFO :"
+💻 *SERVER INFO :*
 RAM: ${format(os.totalmem() - os.freemem())} / ${format(os.totalmem())}
 
 _NodeJS Memory Usage_
@@ -61,8 +60,8 @@ ${cpus[0].model.trim()} (${cpu.speed} MHZ)\n${Object.keys(cpu.times).map(type =>
 
 _CPU Core(s) Usage (${cpus.length} Core CPU)_
 ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Object.keys(cpu.times).map(type => `- *${(type + '*').padEnd(6)}: ${(100 * cpu.times[type] / cpu.total).toFixed(2)}%`).join('\n')}`).join('\n\n')}` : ''}
-`
-conn.sendBut(m.chat, txt,wm2, 'Runtime','.runtime', 'Owner', '.owner', 'Back' , '.back',m)
+`.trim()
+  m.reply(txt)
 }
 handler.help = ['ping']
 handler.tags = ['info']
