@@ -9,6 +9,8 @@ let format = sizeFormatter({
   render: (literal, symbol) => `${literal} ${symbol}B`,
 })
 let handler = async (m, { conn }) => {
+    let _uptime = process.uptime() * 1000
+    let uptime = clockString(_uptime)
   const used = process.memoryUsage()
   const cpus = os.cpus().map(cpu => {
     cpu.total = Object.keys(cpu.times).reduce((last, type) => last + cpu.times[type], 0)
